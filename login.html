@@ -54,8 +54,8 @@
   <body>
     <!-- site -->
     <div class="site">
-     <!-- mobile site__header -->
-     <header class="site__header d-lg-none">
+    <!-- mobile site__header -->
+    <header class="site__header d-lg-none">
       <!-- data-sticky-mode - one of [pullToShow, alwaysOnTop] -->
       <div
         class="mobile-header mobile-header--sticky"
@@ -1049,40 +1049,56 @@
     <!-- desktop site__header / end -->
       <!-- site__body -->
       <div class="site__body">
-        <div class="breads">
-          <nav aria-label="breadcrumb" class="container">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">
-                <a href="#">Home</a><i class="fa fa-chevron-right"></i>
-              </li>
-              <li class="breadcrumb-item active" aria-current="page">
-                Courses
-              </li>
-            </ol>
-          </nav>
-        </div>
-
-        <div class="course_starts">
-          <div class="container">
-            <div class="three_course">
-              <a href="coursechoose.html"> 
-              <div class="course1">
-                <img src="images/school.jpg" />
-                <div class="course1_level">
-                  <h4>School</h4>
+        <div class="notes_login container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+              <img src="images/undraw_book_lover_mkck.svg" />
+            </div>
+            <div class="col-lg-6 col-md-6 col-12" style="margin: auto;">
+              <div class="login_form">
+                <div class="login_heads">
+                  <h4>Hello,</h4>
+                  <p>Please log in with your Email ID and password</p>
                 </div>
-              </div>
-            </a>
-              <div class="course1">
-                <img src="images/plustwo.jpg" />
-                <div class="course1_level">
-                  <h4>+2</h4>
-                </div>
-              </div>
-              <div class="course1">
-                <img src="images/bachelor.jpg" />
-                <div class="course1_level">
-                  <h4>Bachelors</h4>
+                <form>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter Your email"
+                    />
+                    <small id="emailHelp" class="form-text text-muted"
+                      >We'll never share your email with anyone else.</small
+                    >
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="exampleInputPassword1"
+                      placeholder="Enter Your Password"
+                    />
+                  </div>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1"
+                      >Remember Me</label
+                    >
+                  </div>
+                  <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+                <hr />
+                <div class="register_cut">
+                  <h3>
+                    New To OnlineNotesNepal?
+                    <a href="register.html">Register Here</a>
+                  </h3>
                 </div>
               </div>
             </div>

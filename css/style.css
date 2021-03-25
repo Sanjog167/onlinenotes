@@ -13062,14 +13062,16 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
 
 .course_content h5 {
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
   overflow: hidden;
   word-wrap: break-word;
   visibility: visible;
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 10px;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
 .swiper-slide {
@@ -13096,7 +13098,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   color: white;
   background-color: #f07b02;
   padding: 6px 30px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 999px;
 }
 
@@ -13444,4 +13446,257 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   width: 100%;
   height: 210px;
   object-fit: contain;
+}
+
+.courselesson1 {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  cursor: pointer;
+  transition: 200ms ease-out;
+}
+
+.courselesson1:hover {
+  transform: scale(1.05);
+}
+
+.courselesson1_detail {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.courselesson1_detail h4 {
+  font-size: 13px;
+}
+
+.courselesson1_detail p {
+  font-size: 11px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.courselesson1sec {
+  font-size: 11px;
+  color: gray;
+}
+
+.courselesson1sec i {
+  margin-right: 9px;
+}
+
+.notes_login img {
+  width: 100%;
+}
+
+.notes_login {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.login_form input {
+  border: none;
+  border-bottom: 1px solid gray;
+  border-radius: 0px;
+}
+
+.login_form .form-control:focus {
+  color: unset !important;
+  background-color: unset !important;
+  border-color: none !important;
+  outline: 0;
+  -webkit-box-shadow: unset !important;
+  box-shadow: unset !important;
+}
+
+.login_form .form-control {
+  padding: initial;
+}
+
+.login_form button {
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+  border-radius: 999px;
+  background-color: #f07b02;
+  box-shadow: 0 3px 5px 0 rgb(47 85 212 / 30%);
+  border: none;
+}
+
+.login_heads p {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.login_heads h4 {
+  font-size: 20px;
+  margin-bottom: 0.2rem;
+}
+
+.login_form input::placeholder {
+  font-size: 12px;
+}
+
+.register_cut h3 {
+  font-size: 12px;
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+.register_cut {
+  text-align: center;
+}
+
+.our_contributor_slide img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.our_contributor_slide {
+  position: relative;
+}
+
+.our_contributor_slide::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.our_contributor_slide_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+}
+
+.our_contributor_slide_content p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.contributor_name {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.contributor_name_1 {
+  display: flex;
+  align-items: center;
+}
+
+.contributor_name_1 p {
+  margin: initial !important;
+  margin-left: 12px;
+  color: gray;
+}
+
+.contributor_name_1 i {
+  font-size: 10px;
+  margin-right: 12px !important;
+  color: gray;
+}
+
+.contributor_body_first {
+  margin: 2rem auto;
+}
+
+.contributor_name {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 40px;
+  grid-column-gap: 180px;
+}
+
+.contributor_body_first {
+  display: flex;
+  flex-direction: column;
+}
+
+.contributor_body_first {
+  border-bottom: 1px solid lightgray;
+  text-align: center;
+}
+
+.contributor_body_first img {
+  width: 40px;
+}
+
+.our_teacher_slide {
+  background: #6a8da6;
+  height: 40vh;
+  display: grid;
+  place-items: center;
+}
+
+.our_teacher_slide_content p {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.our_teacher_slide_content {
+  width: 40%;
+}
+
+.teacher_body_first {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.teacherone {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 200ms ease-out;
+}
+
+.teacherone:hover {
+  transform: scale(1.05);
+}
+
+.teacherone img {
+  width: 100%;
+}
+
+.teacher_detail {
+  padding: 20px;
+}
+
+.teacher_detail h4 {
+  font-size: 20px;
+}
+
+.teacher_detail p {
+  color: gray;
+}
+
+.teachers {
+  margin-top: 20px;
+}
+
+.teacher_body_first h3 {
+  font-size: 25px;
+  font-size: 500;
+}
+
+.courses_starts a {
+  color: black;
+}
+
+.schoolcourse a {
+  color: white;
+}
+
+.teacher_content {
+  text-align: center;
 }
