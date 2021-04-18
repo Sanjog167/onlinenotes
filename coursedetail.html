@@ -37,6 +37,7 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-97489509-8"
@@ -1050,7 +1051,7 @@
       <!-- site__body -->
       <div class="site__body">
         <div class="breads">
-          <nav aria-label="breadcrumb" class="container">
+          <nav aria-label="breadcrumb" class="container course_main_detail">
             <ol class="breadcrumb">
               <li class="breadcrumb-item">
                 <a href="#">Home</a><i class="fa fa-chevron-right"></i>
@@ -1076,62 +1077,182 @@
           </nav>
         </div>
 
+        <div class="container course_main_detail top_filter">
+          <div class="top_filter1">
+         
+            <select name="address" id="address" class="form-control">
+              <option data-display="Filter By Course">Nothing</option>
+              <option value="1">Some option</option>
+              <option value="2">Another option</option>
+              <option value="3" disabled>A disabled option</option>
+              <option value="4">Potato</option>
+            </select>
+          </div>
+          <div class="top_filter1">
+         
+            <select name="address" id="address" class="form-control">
+              <option data-display="Filter By Level">Nothing</option>
+              <option value="1">Some option</option>
+              <option value="2">Another option</option>
+              <option value="3" disabled>A disabled option</option>
+              <option value="4">Potato</option>
+            </select>
+          </div>
+          <div class="top_filter1">
+          
+            <select name="address" id="address" class="form-control">
+              <option data-display="Filter By Faculty">Nothing</option>
+              <option value="1">Some option</option>
+              <option value="2">Another option</option>
+              <option value="3" disabled>A disabled option</option>
+              <option value="4">Potato</option>
+            </select>
+          </div>
+          <div class="top_filter1">
+           
+            <select name="address" id="address" class="form-control">
+              <option data-display="Filter By Semester">Nothing</option>
+              <option value="1">Some option</option>
+              <option value="2">Another option</option>
+              <option value="3" disabled>A disabled option</option>
+              <option value="4">Potato</option>
+            </select>
+          </div>
+          <div class="top_filter1">
+            <button type="submit">Search
+              <i class="fa fa-search"></i>
+          </button>
+          </div>
+        </div>
+
         <div class="course_detail_starts">
-          <div class="container">
-            <div class="course_detail_head">
-              <h3>Overview</h3>
-              <p>
-                The Quotation elements in HTML are used to insert quoted texts
-                in a web page, that is, the portion of texts different from the
-                normal texts on the web page.
-              </p>
+          <div class="container course_main_detail">
+
+            <div class="row">
+              <div class="col-lg-3 left_filter"> 
+                <div class="filterby">
+                  <h3>Filter Courses</h3>
+                </div>
+                <div class="filterby_first">
+                  <div class="filterby_firstone">
+                 
+                    <h3>Unit 1</h3>
+                    <i class="fa fa-chevron-up"></i>
+                  </div>
+                  <div class="filterby_firstone_body">
+                  <h4>Java</h4>
+                  <h4>C</h4>
+                  <h4>C++</h4>
+                  <h4>Data Structures & Algorith</h4>
+                  <h4>Programming Methodology</h4>
+                   
+                  </div>
+                </div>
+                <div class="filterby_first">
+                  <div class="filterby_firstone">
+                    <h3>Unit 2</h3>
+                    <i class="fa fa-chevron-up"></i>
+                  </div>
+                  <div class="filterby_firstone_body">
+                  <h4>Java</h4>
+                  <h4>C</h4>
+                  <h4>C++</h4>
+                  <h4>Data Structures & Algorith</h4>
+                  <h4>Programming Methodology</h4>
+                   
+                  </div>
+                </div>
+                <div class="filterby_first">
+                  <div class="filterby_firstone">
+                    <h3>Unit 3</h3>
+                    <i class="fa fa-chevron-up"></i>
+                  </div>
+                  <div class="filterby_firstone_body">
+                  <h4>Java</h4>
+                  <h4>C</h4>
+                  <h4>C++</h4>
+                  <h4>Data Structures & Algorith</h4>
+                  <h4>Programming Methodology</h4>
+                   
+                  </div>
+                </div>
+                <div class="filterby_first">
+                  <div class="filterby_firstone">
+                    <h3>Unit 4</h3>
+                    <i class="fa fa-chevron-up"></i>
+                  </div>
+                  <div class="filterby_firstone_body">
+                  <h4>Java</h4>
+                  <h4>C</h4>
+                  <h4>C++</h4>
+                  <h4>Data Structures & Algorith</h4>
+                  <h4>Programming Methodology</h4>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="course_detail_full">
+                  <div class="course_detail_head">
+                    <h3>Overview</h3>
+                    <p>
+                      The Quotation elements in HTML are used to insert quoted texts
+                      in a web page, that is, the portion of texts different from the
+                      normal texts on the web page.
+                    </p>
+                  </div>
+      
+                  <div class="course_detail_body">
+                    <h3>History of C</h3>
+                    <p>
+                      C programming is the best way to learn to code and get your
+                      journey started as a programmer. This video is a 15 Hour long
+                      course that will teach you C language from the basics to the
+                      very advanced level. We will make two fun games during the
+                      course which you can even play during your free time. There are
+                      practice sets included along with Free Handwritten notes for all
+                      the chapters. You can download them from the links below.
+                    </p>
+                    <h3>History of C</h3>
+                    <p>
+                      C programming is the best way to learn to code and get your
+                      journey started as a programmer. This video is a 15 Hour long
+                      course that will teach you C language from the basics to the
+                      very advanced level. We will make two fun games during the
+                      course which you can even play during your free time. There are
+                      practice sets included along with Free Handwritten notes for all
+                      the chapters. You can download them from the links below.
+                    </p>
+                    <div class="courseimage1">
+                      <img src="images/download.png" />
+                    </div>
+                    <h3>History of C</h3>
+                    <p>
+                      C programming is the best way to learn to code and get your
+                      journey started as a programmer. This video is a 15 Hour long
+                      course that will teach you C language from the basics to the
+                      very advanced level. We will make two fun games during the
+                      course which you can even play during your free time. There are
+                      practice sets included along with Free Handwritten notes for all
+                      the chapters. You can download them from the links below.
+                    </p>
+                    <h3>History of C</h3>
+                    <p>
+                      C programming is the best way to learn to code and get your
+                      journey started as a programmer. This video is a 15 Hour long
+                      course that will teach you C language from the basics to the
+                      very advanced level. We will make two fun games during the
+                      course which you can even play during your free time. There are
+                      practice sets included along with Free Handwritten notes for all
+                      the chapters. You can download them from the links below.
+                    </p>
+                  </div>
+                  </div>
+              </div>
             </div>
 
-            <div class="course_detail_body">
-              <h3>History of C</h3>
-              <p>
-                C programming is the best way to learn to code and get your
-                journey started as a programmer. This video is a 15 Hour long
-                course that will teach you C language from the basics to the
-                very advanced level. We will make two fun games during the
-                course which you can even play during your free time. There are
-                practice sets included along with Free Handwritten notes for all
-                the chapters. You can download them from the links below.
-              </p>
-              <h3>History of C</h3>
-              <p>
-                C programming is the best way to learn to code and get your
-                journey started as a programmer. This video is a 15 Hour long
-                course that will teach you C language from the basics to the
-                very advanced level. We will make two fun games during the
-                course which you can even play during your free time. There are
-                practice sets included along with Free Handwritten notes for all
-                the chapters. You can download them from the links below.
-              </p>
-              <div class="courseimage1">
-                <img src="images/download.png" />
-              </div>
-              <h3>History of C</h3>
-              <p>
-                C programming is the best way to learn to code and get your
-                journey started as a programmer. This video is a 15 Hour long
-                course that will teach you C language from the basics to the
-                very advanced level. We will make two fun games during the
-                course which you can even play during your free time. There are
-                practice sets included along with Free Handwritten notes for all
-                the chapters. You can download them from the links below.
-              </p>
-              <h3>History of C</h3>
-              <p>
-                C programming is the best way to learn to code and get your
-                journey started as a programmer. This video is a 15 Hour long
-                course that will teach you C language from the basics to the
-                very advanced level. We will make two fun games during the
-                course which you can even play during your free time. There are
-                practice sets included along with Free Handwritten notes for all
-                the chapters. You can download them from the links below.
-              </p>
-            </div>
+          
+          </div>
           </div>
         </div>
       </div>
@@ -2021,6 +2142,7 @@
     <script src="vendor/svg4everybody/svg4everybody.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha512-NqYds8su6jivy1/WLoW8x1tZMRD7/1ZfhWG/jcRQLOzV1k1rIODCpMgoBnar5QXshKJGV7vi0LXLNXPoFsM5Zg==" crossorigin="anonymous"></script>
     <script>
       svg4everybody();
     </script>
@@ -2036,6 +2158,16 @@
         },
       });
     </script>
+
+    <script>
+      $(document).ready(function() {
+        $('select').niceSelect();
+      });
+    </script>
+
+
+
+
   </body>
-  <!-- Mirrored from stroyka.html.themeforest.scompiler.ru/themes/default-ltr/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Mar 2021 10:55:40 GMT -->
+
 </html>

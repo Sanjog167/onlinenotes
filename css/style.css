@@ -13700,3 +13700,89 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
 .teacher_content {
   text-align: center;
 }
+
+.filterby_firstone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px auto;
+}
+
+.filterby_firstone h3 {
+  margin: 0;
+}
+
+.filterby_firstone_body h4 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.filterby_firstone i {
+  font-size: 10px;
+  font-weight: normal;
+  margin-right: 5px;
+}
+
+.left_filter {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+}
+
+.filterby_firstone_body {
+  border-bottom: 1px solid lightgray;
+}
+
+.filterby h3 {
+  text-transform: uppercase;
+  color: #f07b02;
+  border-bottom: 1px solid lightgray;
+}
+
+@media (min-width: 1200px) {
+  .course_main_detail {
+    max-width: 1400px;
+  }
+}
+
+.top_filter {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  margin: 1rem auto;
+}
+
+.top_filter1 button {
+  width: 100%;
+  background-color: #f07b02;
+  border: none;
+  outline-width: 0;
+  color: white;
+  padding: 9px;
+  border-top-right-radius: 999px;
+  border-bottom-right-radius: 999px;
+}
+
+.top_filter .top_filter1:first-child .nice-select {
+  border-top-left-radius: 999px!important;
+  border-bottom-left-radius: 999px!important;
+}
+
+.top_filter1 label {
+  color: #00008b;
+}
+
+.nice-select {
+  width: 100% !important;
+  outline-width: 0;
+  line-height: 28px !important;
+  font-weight: 600 !important;
+  border: 2px solid lightgray !important;
+}
+
+.nice-select:after {
+  margin-top: initial;
+}
+
+.nice-select .list {
+  width: 100%;
+}
