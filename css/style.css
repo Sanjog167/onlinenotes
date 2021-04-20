@@ -5655,7 +5655,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   padding: 48px 0 54px;
 }
 .site-footer__bottom {
-  height: 54px;
   border-top: 1px solid #ebebeb;
   display: -ms-flexbox;
   display: flex;
@@ -5663,10 +5662,17 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  text-align: center;
 }
 .site-footer__copyright {
   font-size: 14px;
+  margin: auto;
 }
+
+.site-footer__copyright p {
+  margin: 10px auto;
+}
+
 .site-footer__copyright a:hover {
   text-decoration: underline;
 }
@@ -13582,6 +13588,10 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   font-weight: 600;
 }
 
+.about_content {
+  width: 65%;
+}
+
 .contributor_name {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -13763,8 +13773,8 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
 }
 
 .top_filter .top_filter1:first-child .nice-select {
-  border-top-left-radius: 999px!important;
-  border-bottom-left-radius: 999px!important;
+  border-top-left-radius: 999px !important;
+  border-bottom-left-radius: 999px !important;
 }
 
 .top_filter1 label {
@@ -13785,4 +13795,124 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
 
 .nice-select .list {
   width: 100%;
+}
+
+.footer-newsletter__form button {
+  color: white;
+}
+
+.site-footer {
+  background-color: #f8f9fa;
+}
+
+.about_us_small {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 40px 40px;
+}
+
+.about_us_small p {
+  font-size: 18px;
+  margin: 22px auto;
+  max-width: 700px;
+  text-align: justify;
+}
+
+.about_us_mission_vision h4 {
+  text-align: center;
+}
+
+.about_us_mission_vision p {
+  margin: auto;
+  width: 70%;
+}
+
+.about_us_mission_vision img {
+  width: 100%;
+}
+
+.about_us_mission_vision .mission {
+  position: relative;
+  background: #fed8b1;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+.mission h5 {
+  margin-bottom: 20px;
+}
+
+.rowmission {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.mission span {
+  font-weight: 600;
+  font-size: 24px;
+  color: #f07b02;
+}
+
+.testimonial_section {
+  margin: 4rem auto;
+}
+
+.testimonial_section_heads {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.testimonialimage img {
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.testimonialbody {
+  text-align: center;
+}
+
+.testimonialcontainer {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonialimage {
+  position: absolute;
+  left: 50%;
+  top: -22%;
+  transform: translate(-45%);
+}
+
+.testimonial-container {
+  background-color: #fafafa;
+}
+
+.testimonial_sentence {
+  color: gray;
+  line-height: 1.8;
+  width: 80%;
+  margin: auto;
+}
+
+.testimonial_name {
+  color: #f07b02;
+  margin-top: 40px;
+}
+
+.testimonialbody {
+  position: relative;
+}
+
+.testimonialbody img {
+  position: absolute;
+  left: 32px;
+  top: 0px;
+  width: 20px;
+  height: auto;
 }
