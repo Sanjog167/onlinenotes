@@ -13916,3 +13916,239 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   width: 20px;
   height: auto;
 }
+
+.college_top_ad img {
+  width: 100%;
+}
+
+.college_top_ad {
+  background-color: #e7eff6;
+}
+
+@media (min-width: 1200px) {
+  .course_main_detail {
+    max-width: 1400px;
+  }
+}
+
+.left_filter {
+  background-color: white;
+}
+
+.college_bigimg img {
+  width: 100%;
+}
+
+.maincollegeimage{
+  height: 160px;
+  object-fit: cover;
+}
+
+.college_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.college_bigimg {
+  position: relative;
+}
+
+.college_bigimg::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.logowithname {
+  display: flex;
+}
+
+.logowithname img {
+  width: 65px;
+  box-shadow: 0 0 5px #cccaca;
+}
+
+.logowithname h4 {
+  font-size: 13px;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.college_bigimg {
+  position: relative;
+}
+
+.logowithname {
+  position: absolute;
+  left: 10px;
+  bottom: -20px;
+}
+
+.locationwithnumber {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  bottom: -35px;
+}
+
+.location {
+  display: flex;
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+.phone {
+  display: flex;
+  font-size: 10px;
+}
+
+.location i,
+.phone i {
+  margin-top: 2px;
+  margin-right: 5px;
+  color: black;
+}
+
+.location p {
+  text-transform: uppercase;
+  color: black;
+}
+
+.phone p {
+  color: black;
+}
+
+.college_description {
+  background-color: white;
+  padding: 30px 10px 5px 10px;
+}
+
+.affliated {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.college_description p{
+  margin: 0;
+}
+
+.url{
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  border-bottom: 1px solid lightgray;
+}
+
+.url p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.url img{
+  width: 15px;
+  margin-right: 8px;
+}
+
+.affliated img{
+  width: 15px;
+  margin-right: 8px;
+}
+
+.college_courses p{
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.college_courses{
+  margin-top: 8px;
+}
+
+.colleges_courses_list p{
+  font-weight: normal;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 999px;
+  padding: 5px 10px;
+}
+
+.colleges_courses_list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.college_buttons{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.buttonleft{
+  display: flex;
+  align-items: center;
+  background-color: #f07b02;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.buttonright{
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: white;
+  justify-content: center;
+  padding: 5px;
+  color: #f07b02;
+}
+
+
+.college_buttons img{
+  width: 15px;
+  margin-right: 10px;
+}
+
+.buttonleft p{
+  margin: 0;
+  font-size: 12px;
+}
+
+.buttonright p{
+  margin: 0;
+  font-size: 12px;
+}
+
+.college_one{
+  cursor: pointer;
+  transition: 200ms ease-out;
+}
+
+.college_one:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contributor_year{
+  text-align: start;
+}
+
+.teacher_body_first .swiper-slide{
+  border: none;
+}
+
+.teacher_body_first .swiper-slide img{
+  height: initial;
+}
+
+.teacher_body_first .swiper-slide:hover{
+  box-shadow: unset;
+  transform: scale(1.01)!important;
+}
