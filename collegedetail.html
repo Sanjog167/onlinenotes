@@ -1,0 +1,2851 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Notes Nepal</title>
+    <link rel="icon" type="image/png" href="images/cropped-sandip-logo.png" />
+    <!-- fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="vendor/owl-carousel/assets/owl.carousel.min.css"
+    />
+    <link rel="stylesheet" href="vendor/photoswipe/photoswipe.css" />
+    <link
+      rel="stylesheet"
+      href="vendor/photoswipe/default-skin/default-skin.css"
+    />
+    <link rel="stylesheet" href="vendor/select2/css/select2.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- font - fontawesome -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css" />
+    <!-- font - stroyka -->
+    <link rel="stylesheet" href="fonts/stroyka/stroyka.css" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-97489509-8"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-97489509-8");
+    </script>
+  </head>
+
+  <body>
+    <!-- site -->
+    <div class="site">
+      <!-- mobile site__header -->
+      <header class="site__header d-lg-none">
+        <!-- data-sticky-mode - one of [pullToShow, alwaysOnTop] -->
+        <div
+          class="mobile-header mobile-header--sticky"
+          data-sticky-mode="pullToShow"
+        >
+          <div class="mobile-header__panel">
+            <div class="container">
+              <div class="mobile-header__body">
+                <button class="mobile-header__menu-button">
+                  <svg width="18px" height="14px">
+                    <use xlink:href="images/sprite.svg#menu-18x14"></use>
+                  </svg>
+                </button>
+                <a class="mobile-header__logo" href="index.html">
+                  <img src="images/cropped-sandip-logo.png" />
+                </a>
+                <div
+                  class="search search--location--mobile-header mobile-header__search"
+                >
+                  <div class="search__body">
+                    <form class="search__form" action="#">
+                      <input
+                        class="search__input"
+                        name="search"
+                        placeholder="Search over 10,000 products"
+                        aria-label="Site search"
+                        type="text"
+                        autocomplete="off"
+                      />
+                      <button
+                        class="search__button search__button--type--submit"
+                        type="submit"
+                      >
+                        <svg width="20px" height="20px">
+                          <use xlink:href="images/sprite.svg#search-20"></use>
+                        </svg>
+                      </button>
+                      <button
+                        class="search__button search__button--type--close"
+                        type="button"
+                      >
+                        <svg width="20px" height="20px">
+                          <use xlink:href="images/sprite.svg#cross-20"></use>
+                        </svg>
+                      </button>
+                      <div class="search__border"></div></a>
+                    </form>
+                    <div
+                      class="search__suggestions suggestions suggestions--location--mobile-header"
+                    ></div>
+                  </div>
+                </div>
+                <div class="mobile-header__indicators">
+                  <div
+                    class="indicator indicator--mobile-search indicator--mobile d-md-none"
+                  >
+                    <button class="indicator__button">
+                      <span class="indicator__area"
+                        ><svg width="20px" height="20px">
+                          <use
+                            xlink:href="images/sprite.svg#search-20"
+                          ></use></svg
+                      ></span>
+                    </button>
+                  </div>
+                  <div class="indicator indicator--mobile d-sm-flex d-none">
+                    <a href="wishlist.html" class="indicator__button"
+                      ><span class="indicator__area"
+                        ><svg width="20px" height="20px">
+                          <use xlink:href="images/sprite.svg#heart-20"></use>
+                        </svg>
+                        <span class="indicator__value">0</span></span
+                      ></a
+                    >
+                  </div>
+                  <div class="indicator indicator--mobile">
+                    <a href="cart.html" class="indicator__button"
+                      ><span class="indicator__area"
+                        ><svg width="20px" height="20px">
+                          <use xlink:href="images/sprite.svg#cart-20"></use>
+                        </svg>
+                        <span class="indicator__value">3</span></span
+                      ></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- mobile site__header / end -->
+      <!-- desktop site__header -->
+      <header class="site__header d-lg-block d-none">
+        <div class="site-header">
+          <!-- .topbar -->
+          <div class="site-header__topbar topbar">
+            <div class="topbar__container container">
+              <div class="topbar__row">
+                <div class="topbar__item topbar__item--link">
+                  <a class="topbar-link" href="about-us.html">About Us</a>
+                </div>
+                <div class="topbar__item topbar__item--link">
+                  <a class="topbar-link" href="contact-us.html">Contacts</a>
+                </div>
+                <div class="topbar__item topbar__item--link">
+                  <a class="topbar-link" href="#">Store Location</a>
+                </div>
+                <div class="topbar__item topbar__item--link">
+                  <a class="topbar-link" href="track-order.html">Track Order</a>
+                </div>
+                <div class="topbar__item topbar__item--link">
+                  <a class="topbar-link" href="blog-classic.html">Blog</a>
+                </div>
+                <div class="topbar__spring"></div>
+                <div class="topbar__item">
+                  <div class="topbar-dropdown">
+                    <button class="topbar-dropdown__btn" type="button">
+                      My Account
+                      <svg width="7px" height="5px">
+                        <use
+                          xlink:href="images/sprite.svg#arrow-rounded-down-7x5"
+                        ></use>
+                      </svg>
+                    </button>
+                    <div class="topbar-dropdown__body">
+                      <!-- .menu -->
+                      <div class="menu menu--layout--topbar">
+                        <div class="menu__submenus-container"></div>
+                        <ul class="menu__list">
+                          <li class="menu__item">
+                            <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                            <div class="menu__item-submenu-offset"></div>
+                            <a
+                              class="menu__item-link"
+                              href="account-dashboard.html"
+                              >Dashboard</a
+                            >
+                          </li>
+                          <li class="menu__item">
+                            <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                            <div class="menu__item-submenu-offset"></div>
+                            <a
+                              class="menu__item-link"
+                              href="account-profile.html"
+                              >Edit Profile</a
+                            >
+                          </li>
+                          <li class="menu__item">
+                            <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                            <div class="menu__item-submenu-offset"></div>
+                            <a
+                              class="menu__item-link"
+                              href="account-orders.html"
+                              >Order History</a
+                            >
+                          </li>
+                          <li class="menu__item">
+                            <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                            <div class="menu__item-submenu-offset"></div>
+                            <a
+                              class="menu__item-link"
+                              href="account-addresses.html"
+                              >Addresses</a
+                            >
+                          </li>
+                          <li class="menu__item">
+                            <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                            <div class="menu__item-submenu-offset"></div>
+                            <a
+                              class="menu__item-link"
+                              href="account-password.html"
+                              >Password</a
+                            >
+                          </li>
+                          <li class="menu__item">
+                            <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                            <div class="menu__item-submenu-offset"></div>
+                            <a class="menu__item-link" href="account-login.html"
+                              >Logout</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- .menu / end -->
+                    </div>
+                  </div>
+                </div>
+                <div class="topbar__item">
+                  <div class="topbar-dropdown">
+                    <button class="topbar-dropdown__btn" type="button">
+                      Currency: <span class="topbar__item-value">USD</span>
+                      <svg width="7px" height="5px">
+                        <use
+                          xlink:href="images/sprite.svg#arrow-rounded-down-7x5"
+                        ></use>
+                      </svg>
+                    </button>
+                    <div class="topbar-dropdown__body">
+                      <!-- .menu -->
+                      <div class="menu menu--layout--topbar">
+                        <div class="menu__submenus-container"></div>
+                        <ul class="menu__list">
+                          <li class="menu__item">
+                            <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                            <div class="menu__item-submenu-offset"></div>
+                            <a class="menu__item-link" href="#">€ Euro</a>
+                          </li>
+                          <li class="menu__item">
+                            <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                            <div class="menu__item-submenu-offset"></div>
+                            <a class="menu__item-link" href="#"
+                              >£ Pound Sterling</a
+                            >
+                          </li>
+                          <li class="menu__item">
+                            <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                            <div class="menu__item-submenu-offset"></div>
+                            <a class="menu__item-link" href="#">$ US Dollar</a>
+                          </li>
+                          <li class="menu__item">
+                            <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                            <div class="menu__item-submenu-offset"></div>
+                            <a class="menu__item-link" href="#"
+                              >₽ Russian Ruble</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- .menu / end -->
+                    </div>
+                  </div>
+                </div>
+                <div class="topbar__item">
+                  <div class="topbar-dropdown">
+                    <button class="topbar-dropdown__btn" type="button">
+                      Language: <span class="topbar__item-value">EN</span>
+                      <svg width="7px" height="5px">
+                        <use
+                          xlink:href="images/sprite.svg#arrow-rounded-down-7x5"
+                        ></use>
+                      </svg>
+                    </button>
+                    <div class="topbar-dropdown__body">
+                      <!-- .menu -->
+                      <div class="menu menu--layout--topbar menu--with-icons">
+                        <div class="menu__submenus-container"></div>
+                        <ul class="menu__list">
+                          <li class="menu__item">
+                            <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                            <div class="menu__item-submenu-offset"></div>
+                            <a class="menu__item-link" href="#">
+                              <div class="menu__item-icon">
+                                <img
+                                  srcset="
+                                    images/languages/language-1.png,
+                                    images/languages/language-1@2x.png 2x
+                                  "
+                                  src="images/languages/language-1.png"
+                                  alt=""
+                                />
+                              </div>
+                              English
+                            </a>
+                          </li>
+                          <li class="menu__item">
+                            <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                            <div class="menu__item-submenu-offset"></div>
+                            <a class="menu__item-link" href="#">
+                              <div class="menu__item-icon">
+                                <img
+                                  srcset="
+                                    images/languages/language-2.png,
+                                    images/languages/language-2@2x.png 2x
+                                  "
+                                  src="images/languages/language-2.png"
+                                  alt=""
+                                />
+                              </div>
+                              French
+                            </a>
+                          </li>
+                          <li class="menu__item">
+                            <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                            <div class="menu__item-submenu-offset"></div>
+                            <a class="menu__item-link" href="#">
+                              <div class="menu__item-icon">
+                                <img
+                                  srcset="
+                                    images/languages/language-3.png,
+                                    images/languages/language-3@2x.png 2x
+                                  "
+                                  src="images/languages/language-3.png"
+                                  alt=""
+                                />
+                              </div>
+                              German
+                            </a>
+                          </li>
+                          <li class="menu__item">
+                            <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                            <div class="menu__item-submenu-offset"></div>
+                            <a class="menu__item-link" href="#">
+                              <div class="menu__item-icon">
+                                <img
+                                  srcset="
+                                    images/languages/language-4.png,
+                                    images/languages/language-4@2x.png 2x
+                                  "
+                                  src="images/languages/language-4.png"
+                                  alt=""
+                                />
+                              </div>
+                              Russian
+                            </a>
+                          </li>
+                          <li class="menu__item">
+                            <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                            <div class="menu__item-submenu-offset"></div>
+                            <a class="menu__item-link" href="#">
+                              <div class="menu__item-icon">
+                                <img
+                                  srcset="
+                                    images/languages/language-5.png,
+                                    images/languages/language-5@2x.png 2x
+                                  "
+                                  src="images/languages/language-5.png"
+                                  alt=""
+                                />
+                              </div>
+                              Italian
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- .menu / end -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .topbar / end -->
+          <div class="site-header__nav-panel">
+            <!-- data-sticky-mode - one of [pullToShow, alwaysOnTop] -->
+            <div
+              class="nav-panel nav-panel--sticky"
+              data-sticky-mode="pullToShow"
+              style="padding-top: 30px; padding-bottom: 30px"
+            >
+              <div class="nav-panel__container container-fluid">
+                <div class="nav-panel__row">
+                  <div class="nav-panel__logo">
+                    <a href="index.html">
+                      <img src="images/cropped-sandip-logo.png" />
+                    </a>
+                  </div>
+                  <!-- .nav-links -->
+                  <div class="nav-panel__nav-links nav-links">
+                    <ul class="nav-links__list">
+                      <li class="nav-links__item nav-links__item--has-submenu">
+                        <a class="nav-links__item-link" href="index.html">
+                          <div class="nav-links__item-body">Home</div>
+                        </a>
+                      </li>
+
+                      <li class="nav-links__item nav-links__item--has-submenu">
+                        <a
+                          class="nav-links__item-link"
+                          href="shop-grid-3-columns-sidebar.html"
+                        >
+                          <div class="nav-links__item-body">
+                            Courses <i class="fa fa-chevron-down"></i>
+                          </div>
+                        </a>
+                        <div
+                          class="nav-links__submenu nav-links__submenu--type--menu"
+                        >
+                          <!-- .menu -->
+                          <div class="menu menu--layout--classic">
+                            <div class="menu__submenus-container"></div>
+                            <ul class="menu__list">
+                              <li class="menu__item">
+                                <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                <div class="menu__item-submenu-offset"></div>
+                                <a
+                                  class="menu__item-link"
+                                  href="shop-grid-3-columns-sidebar.html"
+                                  >School
+                                  <i class="fa fa-chevron-right"></i>
+                                </a>
+                                <div class="menu__submenu">
+                                  <!-- .menu -->
+                                  <div class="menu menu--layout--classic">
+                                    <div class="menu__submenus-container"></div>
+                                    <ul class="menu__list">
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="shop-grid-3-columns-sidebar.html"
+                                          >Grade 7</a
+                                        >
+                                      </li>
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="shop-grid-4-columns-full.html"
+                                          >Grade 9</a
+                                        >
+                                      </li>
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="shop-grid-5-columns-full.html"
+                                          >Grade 10</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <!-- .menu / end -->
+                                </div>
+                              </li>
+
+                              <li class="menu__item">
+                                <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                <div class="menu__item-submenu-offset"></div>
+                                <a class="menu__item-link" href="product.html"
+                                  >+2 <i class="fa fa-chevron-right"></i
+                                ></a>
+                                <div class="menu__submenu">
+                                  <!-- .menu -->
+                                  <div class="menu menu--layout--classic">
+                                    <div class="menu__submenus-container"></div>
+                                    <ul class="menu__list">
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="product.html"
+                                          >Eleven</a
+                                        >
+                                      </li>
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="product-alt.html"
+                                          >Twelve</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <!-- .menu / end -->
+                                </div>
+                              </li>
+
+                              <li class="menu__item">
+                                <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                <div class="menu__item-submenu-offset"></div>
+                                <a class="menu__item-link" href="product.html"
+                                  >Bachelor <i class="fa fa-chevron-right"></i
+                                ></a>
+                                <div class="menu__submenu">
+                                  <!-- .menu -->
+                                  <div class="menu menu--layout--classic">
+                                    <div class="menu__submenus-container"></div>
+                                    <ul class="menu__list">
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="product.html"
+                                          >Bsc.CSIT
+                                        </a>
+                                      </li>
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="product-alt.html"
+                                          >BCIS</a
+                                        >
+                                      </li>
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="product-alt.html"
+                                          >BBA</a
+                                        >
+                                      </li>
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="product-alt.html"
+                                          >BHM</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <!-- .menu / end -->
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <!-- .menu / end -->
+                        </div>
+                      </li>
+
+                      <li class="nav-links__item nav-links__item--has-submenu">
+                        <a
+                          class="nav-links__item-link"
+                          href="shop-grid-3-columns-sidebar.html"
+                        >
+                          <div class="nav-links__item-body">
+                            Coding <i class="fa fa-chevron-down"></i>
+                          </div>
+                        </a>
+                        <div
+                          class="nav-links__submenu nav-links__submenu--type--menu"
+                        >
+                          <!-- .menu -->
+                          <div class="menu menu--layout--classic">
+                            <div class="menu__submenus-container"></div>
+                            <ul class="menu__list">
+                              <li class="menu__item">
+                                <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                <div class="menu__item-submenu-offset"></div>
+                                <a
+                                  class="menu__item-link"
+                                  href="shop-grid-3-columns-sidebar.html"
+                                  >School
+                                  <i class="fa fa-chevron-right"></i>
+                                </a>
+                                <div class="menu__submenu">
+                                  <!-- .menu -->
+                                  <div class="menu menu--layout--classic">
+                                    <div class="menu__submenus-container"></div>
+                                    <ul class="menu__list">
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="shop-grid-3-columns-sidebar.html"
+                                          >Grade 7</a
+                                        >
+                                      </li>
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="shop-grid-4-columns-full.html"
+                                          >Grade 9</a
+                                        >
+                                      </li>
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="shop-grid-5-columns-full.html"
+                                          >Grade 10</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <!-- .menu / end -->
+                                </div>
+                              </li>
+
+                              <li class="menu__item">
+                                <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                <div class="menu__item-submenu-offset"></div>
+                                <a class="menu__item-link" href="product.html"
+                                  >+2 <i class="fa fa-chevron-right"></i
+                                ></a>
+                                <div class="menu__submenu">
+                                  <!-- .menu -->
+                                  <div class="menu menu--layout--classic">
+                                    <div class="menu__submenus-container"></div>
+                                    <ul class="menu__list">
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="product.html"
+                                          >Eleven</a
+                                        >
+                                      </li>
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="product-alt.html"
+                                          >Twelve</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <!-- .menu / end -->
+                                </div>
+                              </li>
+
+                              <li class="menu__item">
+                                <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                <div class="menu__item-submenu-offset"></div>
+                                <a class="menu__item-link" href="product.html"
+                                  >Bachelor <i class="fa fa-chevron-right"></i
+                                ></a>
+                                <div class="menu__submenu">
+                                  <!-- .menu -->
+                                  <div class="menu menu--layout--classic">
+                                    <div class="menu__submenus-container"></div>
+                                    <ul class="menu__list">
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="product.html"
+                                          >Bsc.CSIT
+                                        </a>
+                                      </li>
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="product-alt.html"
+                                          >BCIS</a
+                                        >
+                                      </li>
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="product-alt.html"
+                                          >BBA</a
+                                        >
+                                      </li>
+                                      <li class="menu__item">
+                                        <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
+                                        <div
+                                          class="menu__item-submenu-offset"
+                                        ></div>
+                                        <a
+                                          class="menu__item-link"
+                                          href="product-alt.html"
+                                          >BHM</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <!-- .menu / end -->
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <!-- .menu / end -->
+                        </div>
+                      </li>
+
+                      <li class="nav-links__item nav-links__item--has-submenu">
+                        <a class="nav-links__item-link" href="index.html">
+                          <div class="nav-links__item-body">Universities</div>
+                        </a>
+                      </li>
+
+                      <li class="nav-links__item nav-links__item--has-submenu">
+                        <a class="nav-links__item-link" href="index.html">
+                          <div class="nav-links__item-body">College</div>
+                        </a>
+                      </li>
+
+                      <li class="nav-links__item nav-links__item--has-submenu">
+                        <a class="nav-links__item-link" href="index.html">
+                          <div class="nav-links__item-body">
+                            Test Preparation
+                          </div>
+                        </a>
+                      </li>
+
+                      <li class="nav-links__item nav-links__item--has-submenu">
+                        <a class="nav-links__item-link" href="index.html">
+                          <div class="nav-links__item-body">
+                            Our Contributors
+                          </div>
+                        </a>
+                      </li>
+                      <li class="nav-links__item nav-links__item--has-submenu">
+                        <a class="nav-links__item-link" href="index.html">
+                          <div class="nav-links__item-body">Our Teachers</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- .nav-links / end -->
+                  <div class="nav-panel__indicators">
+                    <div class="indicator indicator--trigger--click">
+                      <button type="button" class="indicator__button">
+                        <span class="indicator__area"
+                          ><i class="fa fa-search"></i>
+                        </span>
+                      </button>
+                      <div class="indicator__dropdown">
+                        <div class="search search--location--indicator">
+                          <div class="search__body">
+                            <form class="search__form" action="#">
+                              <input
+                                class="search__input"
+                                name="search"
+                                placeholder="Search over 10,000 products"
+                                aria-label="Site search"
+                                type="text"
+                                autocomplete="off"
+                              />
+                              <button
+                                class="search__button search__button--type--submit"
+                                type="submit"
+                              >
+                                <svg width="20px" height="20px">
+                                  <use
+                                    xlink:href="images/sprite.svg#search-20"
+                                  ></use>
+                                </svg>
+                              </button>
+                              <div class="search__border"></div>
+                            </form>
+                            <div
+                              class="search__suggestions suggestions suggestions--location--indicator"
+                            ></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="indicator" style="display: none">
+                      <a href="wishlist.html" class="indicator__button"
+                        ><span class="indicator__area"
+                          ><svg width="20px" height="20px">
+                            <use xlink:href="images/sprite.svg#heart-20"></use>
+                          </svg>
+                          <span class="indicator__value">0</span></span
+                        ></a
+                      >
+                    </div>
+                    <div
+                      class="indicator indicator--trigger--click"
+                      style="display: none"
+                    >
+                      <a href="cart.html" class="indicator__button"
+                        ><span class="indicator__area"
+                          ><svg width="20px" height="20px">
+                            <use xlink:href="images/sprite.svg#cart-20"></use>
+                          </svg>
+                          <span class="indicator__value">3</span></span
+                        ></a
+                      >
+                      <div class="indicator__dropdown">
+                        <!-- .dropcart -->
+                        <div class="dropcart dropcart--style--dropdown">
+                          <div class="dropcart__body">
+                            <div class="dropcart__products-list">
+                              <div class="dropcart__product">
+                                <div
+                                  class="product-image dropcart__product-image"
+                                >
+                                  <a
+                                    href="product.html"
+                                    class="product-image__body"
+                                    ><img
+                                      class="product-image__img"
+                                      src="images/products/product-1.jpg"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="dropcart__product-info">
+                                  <div class="dropcart__product-name">
+                                    <a href="product.html"
+                                      >Electric Planer Brandix KL370090G 300
+                                      Watts</a
+                                    >
+                                  </div>
+                                  <ul class="dropcart__product-options">
+                                    <li>Color: Yellow</li>
+                                    <li>Material: Aluminium</li>
+                                  </ul>
+                                  <div class="dropcart__product-meta">
+                                    <span class="dropcart__product-quantity"
+                                      >2</span
+                                    >
+                                    ×
+                                    <span class="dropcart__product-price"
+                                      >$699.00</span
+                                    >
+                                  </div>
+                                </div>
+                                <button
+                                  type="button"
+                                  class="dropcart__product-remove btn btn-light btn-sm btn-svg-icon"
+                                >
+                                  <svg width="10px" height="10px">
+                                    <use
+                                      xlink:href="images/sprite.svg#cross-10"
+                                    ></use>
+                                  </svg>
+                                </button>
+                              </div>
+                              <div class="dropcart__product">
+                                <div
+                                  class="product-image dropcart__product-image"
+                                >
+                                  <a
+                                    href="product.html"
+                                    class="product-image__body"
+                                    ><img
+                                      class="product-image__img"
+                                      src="images/products/product-2.jpg"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="dropcart__product-info">
+                                  <div class="dropcart__product-name">
+                                    <a href="product.html"
+                                      >Undefined Tool IRadix DPS3000SY 2700
+                                      watts</a
+                                    >
+                                  </div>
+                                  <div class="dropcart__product-meta">
+                                    <span class="dropcart__product-quantity"
+                                      >1</span
+                                    >
+                                    ×
+                                    <span class="dropcart__product-price"
+                                      >$849.00</span
+                                    >
+                                  </div>
+                                </div>
+                                <button
+                                  type="button"
+                                  class="dropcart__product-remove btn btn-light btn-sm btn-svg-icon"
+                                >
+                                  <svg width="10px" height="10px">
+                                    <use
+                                      xlink:href="images/sprite.svg#cross-10"
+                                    ></use>
+                                  </svg>
+                                </button>
+                              </div>
+                              <div class="dropcart__product">
+                                <div
+                                  class="product-image dropcart__product-image"
+                                >
+                                  <a
+                                    href="product.html"
+                                    class="product-image__body"
+                                    ><img
+                                      class="product-image__img"
+                                      src="images/products/product-5.jpg"
+                                      alt=""
+                                  /></a>
+                                </div>
+                                <div class="dropcart__product-info">
+                                  <div class="dropcart__product-name">
+                                    <a href="product.html"
+                                      >Brandix Router Power Tool 2017ERXPK</a
+                                    >
+                                  </div>
+                                  <ul class="dropcart__product-options">
+                                    <li>Color: True Red</li>
+                                  </ul>
+                                  <div class="dropcart__product-meta">
+                                    <span class="dropcart__product-quantity"
+                                      >3</span
+                                    >
+                                    ×
+                                    <span class="dropcart__product-price"
+                                      >$1,210.00</span
+                                    >
+                                  </div>
+                                </div>
+                                <button
+                                  type="button"
+                                  class="dropcart__product-remove btn btn-light btn-sm btn-svg-icon"
+                                >
+                                  <svg width="10px" height="10px">
+                                    <use
+                                      xlink:href="images/sprite.svg#cross-10"
+                                    ></use>
+                                  </svg>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="dropcart__totals">
+                              <table>
+                                <tr>
+                                  <th>Subtotal</th>
+                                  <td>$5,877.00</td>
+                                </tr>
+                                <tr>
+                                  <th>Shipping</th>
+                                  <td>$25.00</td>
+                                </tr>
+                                <tr>
+                                  <th>Tax</th>
+                                  <td>$0.00</td>
+                                </tr>
+                                <tr>
+                                  <th>Total</th>
+                                  <td>$5,902.00</td>
+                                </tr>
+                              </table>
+                            </div>
+                            <div class="dropcart__buttons">
+                              <a class="btn btn-secondary" href="cart.html"
+                                >View Cart</a
+                              >
+                              <a class="btn btn-primary" href="checkout.html"
+                                >Checkout</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <!-- .dropcart / end -->
+                      </div>
+                    </div>
+                    <div class="indicator">
+                      <a href="login.html" class="indicator__button"
+                        ><span class="indicator__area">
+                          <i class="fa fa-user"></i></span
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- desktop site__header / end -->
+      <!-- site__body -->
+      <div class="site__body">
+
+        <div class="college_detail_slides">
+            <img src="images/kanti.jpg">
+
+            <div class="college_detail_top">
+                <div class="collegeprofilewithnames">
+                    <img src="images/softlogo.jpg">
+                    <div class="breadsnameandmore">
+                          <div class="detail_name">
+                              <h3>Softwarica College Of IT And Ecommerce</h3>
+                          </div>
+                          <div class="detail_detail">
+                              <div class="detail_first">
+                                <i class="fa fa-map-marker"></i>
+                                <p>New Baneshwor, Kathmandu</p>
+                              </div>
+                              <div class="detail_first">
+                                <i class="fa fa-phone"></i>
+                                <p>014497515</p>
+                              </div>
+                              <div class="detail_first">
+                                <i class="fa fa-star"></i>
+                               <p>International Board</p>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="breads">
+            <nav aria-label="breadcrumb" class="container college_main_detail">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="#">Home</a><i class="fa fa-chevron-right"></i>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="#">Colleges</a><i class="fa fa-chevron-right"></i>
+                  </li>
+                <li class="breadcrumb-item active" aria-current="page">Softwarica College Of IT And Ecommerce</li>
+              </ol>
+            </nav>
+          </div>
+
+          <div class="college_top_ad">
+            <div class="container college_main_detail"> 
+            <img src="images/namiad.gif">
+        </div>
+          </div>
+
+            <div class="college_main_detai">
+                        <div class="college_top_links">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">INFO</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FACULTY</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">COURSES & FEES</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="gallery-tab" data-toggle="tab" href="#gallery" role="tab" aria-controls="contact" aria-selected="false">GALLERY</a>
+                                  </li>
+                              </ul>
+
+                              <div class="container college_main_detail"> 
+                              <div class="row">
+                                  <div class="col-lg-9">
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                            <div class="info">
+                                                <div class="info_tit">
+                                                    <h3>Softwarica College Of IT And Ecommerce</h3>
+                                                </div>
+                                                <div class="info_para">
+                                                    <p>
+                                                        Softwarica College is recognized as a high-quality academic institution that provides range of bachelor programs. It is located among the busiest place of Kathmandu, Purano Baneshwor with diverse society where college can include students from every corner of Nepal. Thames International College consists of two schools based on field of study, School of Business and Technology and School of Social Sciences.
+                                                    </p>
+
+                                                    <img src="images/soft.jpg">
+
+                                                    <p>
+                                                        Softwarica College is recognized as a high-quality academic institution that provides range of bachelor programs. It is located among the busiest place of Kathmandu, Purano Baneshwor with diverse society where college can include students from every corner of Nepal. Thames International College consists of two schools based on field of study, School of Business and Technology and School of Social Sciences.
+
+School of Business and Technology currently provides Bachelor of Business Administration (BBA), Bachelor of Business Management (BBM), Bachelor of Business Studies (BBS) and Bachelor of Information Management (BIM), Bachelor of Computer Applications (BCA). School of Social Sciences offers BA courses which includes Bachelor of Social work, Bachelor of Rural Development, Bachelor of Journalism and Mass Communication, Bachelor of Sociology and Bachelor of Psychology.
+
+Thames International College has gained reputation from not only through its education excellence but also through full dedication from experienced academicians and excellent learning environment. Thames International College has been focusing on how to prepare students to deal with the real-world challenges and facilitate students on how to independently make appropriate choice. Special class rooms are configured to enhance interactive learning for students.
+                                                    </p>
+
+                                                    <p>
+                                                        Softwarica College has gained reputation from not only through its education excellence but also through full dedication from experienced academicians and excellent learning environment. Thames International College has been focusing on how to prepare students to deal with the real-world challenges and facilitate students on how to independently make appropriate choice. Special class rooms are configured to enhance interactive learning for students.  
+                                                    </p>
+
+
+                                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                            <div class="courses">
+                                                <div class="courses_tit">
+                                                    <h3>Our Full Time Faculty Members</h3>
+                                                </div>
+                                                <div class="faculty_list">
+                                                    <div class="row">
+                                                        <div class="col-lg-4">
+                                                            <div class="faculty1">
+                                                                <div class="faculty_name">
+                                                                    <h4>Prof. Dr. Pushpa Raj Adhikary</h4>
+                                                                </div>
+                                                                <div class="faculty_position">
+                                                                    <p>Academic Director</p>
+                                                                </div>
+                                                                <div class="faculty_list">
+                                                                    <p>Doctor of Philosophy (PhD.) in Mathematics
+                                                                        University of Madras, India</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="faculty1">
+                                                                <div class="faculty_name">
+                                                                    <h4>Prof. Dr. Pushpa Raj Adhikary</h4>
+                                                                </div>
+                                                                <div class="faculty_position">
+                                                                    <p>Academic Director</p>
+                                                                </div>
+                                                                <div class="faculty_list">
+                                                                    <p>Doctor of Philosophy (PhD.) in Mathematics
+                                                                        University of Madras, India</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="faculty1">
+                                                                <div class="faculty_name">
+                                                                    <h4>Prof. Dr. Pushpa Raj Adhikary</h4>
+                                                                </div>
+                                                                <div class="faculty_position">
+                                                                    <p>Academic Director</p>
+                                                                </div>
+                                                                <div class="faculty_list">
+                                                                    <p>Doctor of Philosophy (PhD.) in Mathematics
+                                                                        University of Madras, India</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="faculty1">
+                                                                <div class="faculty_name">
+                                                                    <h4>Prof. Dr. Pushpa Raj Adhikary</h4>
+                                                                </div>
+                                                                <div class="faculty_position">
+                                                                    <p>Academic Director</p>
+                                                                </div>
+                                                                <div class="faculty_list">
+                                                                    <p>Doctor of Philosophy (PhD.) in Mathematics
+                                                                        University of Madras, India</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="faculty1">
+                                                                <div class="faculty_name">
+                                                                    <h4>Prof. Dr. Pushpa Raj Adhikary</h4>
+                                                                </div>
+                                                                <div class="faculty_position">
+                                                                    <p>Academic Director</p>
+                                                                </div>
+                                                                <div class="faculty_list">
+                                                                    <p>Doctor of Philosophy (PhD.) in Mathematics
+                                                                        University of Madras, India</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="faculty1">
+                                                                <div class="faculty_name">
+                                                                    <h4>Prof. Dr. Pushpa Raj Adhikary</h4>
+                                                                </div>
+                                                                <div class="faculty_position">
+                                                                    <p>Academic Director</p>
+                                                                </div>
+                                                                <div class="faculty_list">
+                                                                    <p>Doctor of Philosophy (PhD.) in Mathematics
+                                                                        University of Madras, India</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                            <div class="courses">
+                                                <div class="courses_tit">
+                                                    <h3>Our Courses</h3>
+                                                </div>
+                                                <div class="all_courses">
+                                                    <div class="row">
+                                                        <div class="col-lg-4">
+                                                            <div class="course_here">
+                                                                <img src="images/soft.jpg">
+                                                                <div class="course_here_name">
+                                                                    <h4>BSc(Hons) Computing</h4>
+                                                                    <p><img src="images/graduation-hat-and-diploma.svg"> BSC(Hons)</p>
+                                                                    <p><i class="fa fa-clock"></i> 3 Years</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="course_here">
+                                                                <img src="images/soft.jpg">
+                                                                <div class="course_here_name">
+                                                                    <h4>BSc(Hons) Computing</h4>
+                                                                    <p><img src="images/graduation-hat-and-diploma.svg"> BSC(Hons)</p>
+                                                                    <p><i class="fa fa-clock"></i> 3 Years</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="course_here">
+                                                                <img src="images/soft.jpg">
+                                                                <div class="course_here_name">
+                                                                    <h4>BSc(Hons) Computing</h4>
+                                                                    <p><img src="images/graduation-hat-and-diploma.svg"> BSC(Hons)</p>
+                                                                    <p><i class="fa fa-clock"></i> 3 Years</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="courses">
+                                                <div class="courses_tit">
+                                                    <h3>Fee Structure</h3>
+                                                </div>
+                                                <table class="table table-sm table-striped">
+                                                    <thead>
+                                                      <tr>
+                                                        <th scope="col">COURSE</th>
+                                                        <th scope="col">FEES</th>
+                                                      </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                      <tr>
+                                                        <th scope="row">BSc(Hons) Computing</th>
+                                                        <td>₹23 Lakhs (Total Fees)</td>
+                                                     
+                                                      </tr>
+                                                      <tr>
+                                                        <th scope="row">BSc (Hons) Ethical Hacking & Cyber-Crime</th>
+                                                        <td>₹23 Lakhs (Total Fees)</td>
+                                                    
+                                                      </tr>
+                                                      <tr>
+                                                        <th scope="row">Bachelor of Business Administration</th>
+                                                        <td colspan="2">₹23 Lakhs (Total Fees)</td>
+                                                   
+                                                      </tr>
+                                                      <tr>
+                                                        <th scope="row">Bachelor of Social Work
+                                                        </th>
+                                                        <td colspan="2">₹23 Lakhs (Total Fees)</td>
+                                                      
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                             
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="gallery" role="tabpanel" aria-labelledby="gallery-tab">
+                                            <div class="courses">
+                                                <div class="courses_tit">
+                                                    <h3>Our Gallery</h3>
+                                                </div>
+                                                <div class="our_gallery">
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <img src="images/soft.jpg">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <img src="images/soft.jpg">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <img src="images/soft.jpg">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <img src="images/soft.jpg">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <img src="images/soft.jpg">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <img src="images/soft.jpg">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <img src="images/soft.jpg">
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <img src="images/soft.jpg">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-3">
+                                    <div class="download_brochure">
+                                        <a href="#">   <i class="fa fa-download"></i> DOWNLOAD BROCHURE</a>
+                                    </div>
+                                    <div class="detail_ad1">
+                                        <img src="images/The-British-College.webp">
+                                    </div>
+                                    <div class="detail_ad1">
+                                        <img src="images/worldlink.jpg">
+                                    </div>
+                                    <div class="detail_ad1">
+                                        <img src="images/Herald College kathmandu_2021-04-01_1617258652230.gif">
+                                    </div>
+                                    <div class="detail_ad1">
+                                        <img src="images/ICK_2021-04-01_1617258089608.gif">
+                                    </div>
+                                  </div>
+                              </div>
+                              </div>
+
+                            
+                        </div>
+            </div>
+     
+    
+            <div class="nearby_collegs">
+                <div class="container college_main_detail">
+                    <div class="nearby_college_title">
+                        <h3>NEARBY COLLEGES</h3>
+                    </div>
+                    <div class="nearbyswiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="college_one">
+                                <div class="college_bigimg">
+                                    <img src="images/softwarica.jpg" class="maincollegeimage">
+                                    <div class="logowithname">
+                                        <img src="images/softlogo.jpg">
+                                        <h4>Softwarica College Of IT And Ecommerce</h4>
+                                    </div>
+                                    <div class="locationwithnumber">
+                                        <div class="location">
+                                            <i class="fa fa-map-marker"></i>
+                                            <p>New Baneshwor, Kathmandu</p>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                <div class="college_description">
+                                   <div class="affliated">
+                                       <img src="images/graduation-hat-and-diploma.svg">
+                                       <p>International Board</p>
+                                   </div>
+                                   <div class="url">
+                                       <img src="images/url.svg">
+                                       <p>https://softwarica.edu.np/</p>
+                                   </div>
+                                   <div class="college_courses">
+                                    <p>Courses</p>
+                                    <div class="colleges_courses_list">
+                                        <p>BSC(Hons),BIT</p>
+                                        <p>BBA</p>
+                                        <p>BBS</p>
+                                        <p>BBA</p>
+                                        
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="college_buttons">
+                                    <div class="buttonleft">
+                                        <img src="images/view-details.svg">
+                                        <p>VIEW DETAILS</p>
+                                    </div>
+                                    <div class="buttonright">
+                                        <img src="images/download.svg">
+                                        <p>BROCHURE</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="college_one">
+                                <div class="college_bigimg">
+                                    <img src="images/aryan_college.jpg" class="maincollegeimage">
+                                    <div class="logowithname">
+                                        <img src="images/softlogo.jpg">
+                                        <h4>Softwarica College Of IT And Ecommerce</h4>
+                                    </div>
+                                    <div class="locationwithnumber">
+                                        <div class="location">
+                                            <i class="fa fa-map-marker"></i>
+                                            <p>New Baneshwor, Kathmandu</p>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                <div class="college_description">
+                                   <div class="affliated">
+                                       <img src="images/graduation-hat-and-diploma.svg">
+                                       <p>International Board</p>
+                                   </div>
+                                   <div class="url">
+                                       <img src="images/url.svg">
+                                       <p>https://softwarica.edu.np/</p>
+                                   </div>
+                                   <div class="college_courses">
+                                    <p>Courses</p>
+                                    <div class="colleges_courses_list">
+                                        <p>BSC(Hons),BIT</p>
+                                        <p>BBA</p>
+                                        <p>BBS</p>
+                                        <p>BBA</p>
+                                        
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="college_buttons">
+                                    <div class="buttonleft">
+                                        <img src="images/view-details.svg">
+                                        <p>VIEW DETAILS</p>
+                                    </div>
+                                    <div class="buttonright">
+                                        <img src="images/download.svg">
+                                        <p>BROCHURE</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="college_one">
+                                <div class="college_bigimg">
+                                    <img src="images/excel.jpeg" class="maincollegeimage">
+                                    <div class="logowithname">
+                                        <img src="images/softlogo.jpg">
+                                        <h4>Softwarica College Of IT And Ecommerce</h4>
+                                    </div>
+                                    <div class="locationwithnumber">
+                                        <div class="location">
+                                            <i class="fa fa-map-marker"></i>
+                                            <p>New Baneshwor, Kathmandu</p>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                <div class="college_description">
+                                   <div class="affliated">
+                                       <img src="images/graduation-hat-and-diploma.svg">
+                                       <p>International Board</p>
+                                   </div>
+                                   <div class="url">
+                                       <img src="images/url.svg">
+                                       <p>https://softwarica.edu.np/</p>
+                                   </div>
+                                   <div class="college_courses">
+                                    <p>Courses</p>
+                                    <div class="colleges_courses_list">
+                                        <p>BSC(Hons),BIT</p>
+                                        <p>BBA</p>
+                                        <p>BBS</p>
+                                        <p>BBA</p>
+                                        
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="college_buttons">
+                                    <div class="buttonleft">
+                                        <img src="images/view-details.svg">
+                                        <p>VIEW DETAILS</p>
+                                    </div>
+                                    <div class="buttonright">
+                                        <img src="images/download.svg">
+                                        <p>BROCHURE</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="college_one">
+                                <div class="college_bigimg">
+                                    <img src="images/kanti.jpg" class="maincollegeimage">
+                                    <div class="logowithname">
+                                        <img src="images/softlogo.jpg">
+                                        <h4>Softwarica College Of IT And Ecommerce</h4>
+                                    </div>
+                                    <div class="locationwithnumber">
+                                        <div class="location">
+                                            <i class="fa fa-map-marker"></i>
+                                            <p>New Baneshwor, Kathmandu</p>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                <div class="college_description">
+                                   <div class="affliated">
+                                       <img src="images/graduation-hat-and-diploma.svg">
+                                       <p>International Board</p>
+                                   </div>
+                                   <div class="url">
+                                       <img src="images/url.svg">
+                                       <p>https://softwarica.edu.np/</p>
+                                   </div>
+                                   <div class="college_courses">
+                                    <p>Courses</p>
+                                    <div class="colleges_courses_list">
+                                        <p>BSC(Hons),BIT</p>
+                                        <p>BBA</p>
+                                        <p>BBS</p>
+                                        <p>BBA</p>
+                                        
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="college_buttons">
+                                    <div class="buttonleft">
+                                        <img src="images/view-details.svg">
+                                        <p>VIEW DETAILS</p>
+                                    </div>
+                                    <div class="buttonright">
+                                        <img src="images/download.svg">
+                                        <p>BROCHURE</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="college_one">
+                                <div class="college_bigimg">
+                                    <img src="images/TheBritishCollege.jpg" class="maincollegeimage">
+                                    <div class="logowithname">
+                                        <img src="images/softlogo.jpg">
+                                        <h4>Softwarica College Of IT And Ecommerce</h4>
+                                    </div>
+                                    <div class="locationwithnumber">
+                                        <div class="location">
+                                            <i class="fa fa-map-marker"></i>
+                                            <p>New Baneshwor, Kathmandu</p>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                <div class="college_description">
+                                   <div class="affliated">
+                                       <img src="images/graduation-hat-and-diploma.svg">
+                                       <p>International Board</p>
+                                   </div>
+                                   <div class="url">
+                                       <img src="images/url.svg">
+                                       <p>https://softwarica.edu.np/</p>
+                                   </div>
+                                   <div class="college_courses">
+                                    <p>Courses</p>
+                                    <div class="colleges_courses_list">
+                                        <p>BSC(Hons),BIT</p>
+                                        <p>BBA</p>
+                                        <p>BBS</p>
+                                        <p>BBA</p>
+                                        
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="college_buttons">
+                                    <div class="buttonleft">
+                                        <img src="images/view-details.svg">
+                                        <p>VIEW DETAILS</p>
+                                    </div>
+                                    <div class="buttonright">
+                                        <img src="images/download.svg">
+                                        <p>BROCHURE</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </div>
+            </div>
+    
+
+
+            <div class="nearby_collegs">
+                <div class="container college_main_detail">
+                    <div class="nearby_college_title">
+                        <h3>SIMILAR COLLEGES</h3>
+                    </div>
+                    <div class="similarswiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="college_one">
+                                <div class="college_bigimg">
+                                    <img src="images/softwarica.jpg" class="maincollegeimage">
+                                    <div class="logowithname">
+                                        <img src="images/softlogo.jpg">
+                                        <h4>Softwarica College Of IT And Ecommerce</h4>
+                                    </div>
+                                    <div class="locationwithnumber">
+                                        <div class="location">
+                                            <i class="fa fa-map-marker"></i>
+                                            <p>New Baneshwor, Kathmandu</p>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                <div class="college_description">
+                                   <div class="affliated">
+                                       <img src="images/graduation-hat-and-diploma.svg">
+                                       <p>International Board</p>
+                                   </div>
+                                   <div class="url">
+                                       <img src="images/url.svg">
+                                       <p>https://softwarica.edu.np/</p>
+                                   </div>
+                                   <div class="college_courses">
+                                    <p>Courses</p>
+                                    <div class="colleges_courses_list">
+                                        <p>BSC(Hons),BIT</p>
+                                        <p>BBA</p>
+                                        <p>BBS</p>
+                                        <p>BBA</p>
+                                        
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="college_buttons">
+                                    <div class="buttonleft">
+                                        <img src="images/view-details.svg">
+                                        <p>VIEW DETAILS</p>
+                                    </div>
+                                    <div class="buttonright">
+                                        <img src="images/download.svg">
+                                        <p>BROCHURE</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="college_one">
+                                <div class="college_bigimg">
+                                    <img src="images/aryan_college.jpg" class="maincollegeimage">
+                                    <div class="logowithname">
+                                        <img src="images/softlogo.jpg">
+                                        <h4>Softwarica College Of IT And Ecommerce</h4>
+                                    </div>
+                                    <div class="locationwithnumber">
+                                        <div class="location">
+                                            <i class="fa fa-map-marker"></i>
+                                            <p>New Baneshwor, Kathmandu</p>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                <div class="college_description">
+                                   <div class="affliated">
+                                       <img src="images/graduation-hat-and-diploma.svg">
+                                       <p>International Board</p>
+                                   </div>
+                                   <div class="url">
+                                       <img src="images/url.svg">
+                                       <p>https://softwarica.edu.np/</p>
+                                   </div>
+                                   <div class="college_courses">
+                                    <p>Courses</p>
+                                    <div class="colleges_courses_list">
+                                        <p>BSC(Hons),BIT</p>
+                                        <p>BBA</p>
+                                        <p>BBS</p>
+                                        <p>BBA</p>
+                                        
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="college_buttons">
+                                    <div class="buttonleft">
+                                        <img src="images/view-details.svg">
+                                        <p>VIEW DETAILS</p>
+                                    </div>
+                                    <div class="buttonright">
+                                        <img src="images/download.svg">
+                                        <p>BROCHURE</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="college_one">
+                                <div class="college_bigimg">
+                                    <img src="images/excel.jpeg" class="maincollegeimage">
+                                    <div class="logowithname">
+                                        <img src="images/softlogo.jpg">
+                                        <h4>Softwarica College Of IT And Ecommerce</h4>
+                                    </div>
+                                    <div class="locationwithnumber">
+                                        <div class="location">
+                                            <i class="fa fa-map-marker"></i>
+                                            <p>New Baneshwor, Kathmandu</p>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                <div class="college_description">
+                                   <div class="affliated">
+                                       <img src="images/graduation-hat-and-diploma.svg">
+                                       <p>International Board</p>
+                                   </div>
+                                   <div class="url">
+                                       <img src="images/url.svg">
+                                       <p>https://softwarica.edu.np/</p>
+                                   </div>
+                                   <div class="college_courses">
+                                    <p>Courses</p>
+                                    <div class="colleges_courses_list">
+                                        <p>BSC(Hons),BIT</p>
+                                        <p>BBA</p>
+                                        <p>BBS</p>
+                                        <p>BBA</p>
+                                        
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="college_buttons">
+                                    <div class="buttonleft">
+                                        <img src="images/view-details.svg">
+                                        <p>VIEW DETAILS</p>
+                                    </div>
+                                    <div class="buttonright">
+                                        <img src="images/download.svg">
+                                        <p>BROCHURE</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="college_one">
+                                <div class="college_bigimg">
+                                    <img src="images/kanti.jpg" class="maincollegeimage">
+                                    <div class="logowithname">
+                                        <img src="images/softlogo.jpg">
+                                        <h4>Softwarica College Of IT And Ecommerce</h4>
+                                    </div>
+                                    <div class="locationwithnumber">
+                                        <div class="location">
+                                            <i class="fa fa-map-marker"></i>
+                                            <p>New Baneshwor, Kathmandu</p>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                <div class="college_description">
+                                   <div class="affliated">
+                                       <img src="images/graduation-hat-and-diploma.svg">
+                                       <p>International Board</p>
+                                   </div>
+                                   <div class="url">
+                                       <img src="images/url.svg">
+                                       <p>https://softwarica.edu.np/</p>
+                                   </div>
+                                   <div class="college_courses">
+                                    <p>Courses</p>
+                                    <div class="colleges_courses_list">
+                                        <p>BSC(Hons),BIT</p>
+                                        <p>BBA</p>
+                                        <p>BBS</p>
+                                        <p>BBA</p>
+                                        
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="college_buttons">
+                                    <div class="buttonleft">
+                                        <img src="images/view-details.svg">
+                                        <p>VIEW DETAILS</p>
+                                    </div>
+                                    <div class="buttonright">
+                                        <img src="images/download.svg">
+                                        <p>BROCHURE</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="college_one">
+                                <div class="college_bigimg">
+                                    <img src="images/TheBritishCollege.jpg" class="maincollegeimage">
+                                    <div class="logowithname">
+                                        <img src="images/softlogo.jpg">
+                                        <h4>Softwarica College Of IT And Ecommerce</h4>
+                                    </div>
+                                    <div class="locationwithnumber">
+                                        <div class="location">
+                                            <i class="fa fa-map-marker"></i>
+                                            <p>New Baneshwor, Kathmandu</p>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                <div class="college_description">
+                                   <div class="affliated">
+                                       <img src="images/graduation-hat-and-diploma.svg">
+                                       <p>International Board</p>
+                                   </div>
+                                   <div class="url">
+                                       <img src="images/url.svg">
+                                       <p>https://softwarica.edu.np/</p>
+                                   </div>
+                                   <div class="college_courses">
+                                    <p>Courses</p>
+                                    <div class="colleges_courses_list">
+                                        <p>BSC(Hons),BIT</p>
+                                        <p>BBA</p>
+                                        <p>BBS</p>
+                                        <p>BBA</p>
+                                        
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="college_buttons">
+                                    <div class="buttonleft">
+                                        <img src="images/view-details.svg">
+                                        <p>VIEW DETAILS</p>
+                                    </div>
+                                    <div class="buttonright">
+                                        <img src="images/download.svg">
+                                        <p>BROCHURE</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                </div>
+            </div>
+
+
+  
+       
+
+   
+
+     
+
+
+      </div>
+      <!-- site__body / end -->
+      <!-- site__footer -->
+    
+      <!-- site__footer / end -->
+    </div>
+    <!-- site / end -->
+    <!-- quickview-modal -->
+    <div
+      id="quickview-modal"
+      class="modal fade"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content"></div>
+      </div>
+    </div>
+    <!-- quickview-modal / end -->
+    <!-- mobilemenu -->
+    <div class="mobilemenu">
+      <div class="mobilemenu__backdrop"></div>
+      <div class="mobilemenu__body">
+        <div class="mobilemenu__header">
+          <div class="mobilemenu__title">Menu</div>
+          <button type="button" class="mobilemenu__close">
+            <svg width="20px" height="20px">
+              <use xlink:href="images/sprite.svg#cross-20"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="mobilemenu__content">
+          <ul
+            class="mobile-links mobile-links--level--0"
+            data-collapse
+            data-collapse-opened-class="mobile-links__item--open"
+          >
+            <li class="mobile-links__item" data-collapse-item>
+              <div class="mobile-links__item-title">
+                <a href="index.html" class="mobile-links__item-link">Home</a>
+                <button
+                  class="mobile-links__item-toggle"
+                  type="button"
+                  data-collapse-trigger
+                >
+                  <svg
+                    class="mobile-links__item-arrow"
+                    width="12px"
+                    height="7px"
+                  >
+                    <use
+                      xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="mobile-links__item-sub-links" data-collapse-content>
+                <ul class="mobile-links mobile-links--level--1">
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="index.html" class="mobile-links__item-link"
+                        >Home 1</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="index-2.html" class="mobile-links__item-link"
+                        >Home 2</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="index-3.html" class="mobile-links__item-link"
+                        >Home 1 Finder</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="index-4.html" class="mobile-links__item-link"
+                        >Home 2 Finder</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="offcanvas-cart.html"
+                        class="mobile-links__item-link"
+                        >Offcanvas Cart</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-links__item" data-collapse-item>
+              <div class="mobile-links__item-title">
+                <a href="#" class="mobile-links__item-link">Categories</a>
+                <button
+                  class="mobile-links__item-toggle"
+                  type="button"
+                  data-collapse-trigger
+                >
+                  <svg
+                    class="mobile-links__item-arrow"
+                    width="12px"
+                    height="7px"
+                  >
+                    <use
+                      xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="mobile-links__item-sub-links" data-collapse-content>
+                <ul class="mobile-links mobile-links--level--1">
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="#" class="mobile-links__item-link"
+                        >Power Tools</a
+                      >
+                      <button
+                        class="mobile-links__item-toggle"
+                        type="button"
+                        data-collapse-trigger
+                      >
+                        <svg
+                          class="mobile-links__item-arrow"
+                          width="12px"
+                          height="7px"
+                        >
+                          <use
+                            xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                          ></use>
+                        </svg>
+                      </button>
+                    </div>
+                    <div
+                      class="mobile-links__item-sub-links"
+                      data-collapse-content
+                    >
+                      <ul class="mobile-links mobile-links--level--2">
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a href="#" class="mobile-links__item-link"
+                              >Engravers</a
+                            >
+                          </div>
+                        </li>
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a href="#" class="mobile-links__item-link"
+                              >Wrenches</a
+                            >
+                          </div>
+                        </li>
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a href="#" class="mobile-links__item-link"
+                              >Wall Chaser</a
+                            >
+                          </div>
+                        </li>
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a href="#" class="mobile-links__item-link"
+                              >Pneumatic Tools</a
+                            >
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="#" class="mobile-links__item-link"
+                        >Machine Tools</a
+                      >
+                      <button
+                        class="mobile-links__item-toggle"
+                        type="button"
+                        data-collapse-trigger
+                      >
+                        <svg
+                          class="mobile-links__item-arrow"
+                          width="12px"
+                          height="7px"
+                        >
+                          <use
+                            xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                          ></use>
+                        </svg>
+                      </button>
+                    </div>
+                    <div
+                      class="mobile-links__item-sub-links"
+                      data-collapse-content
+                    >
+                      <ul class="mobile-links mobile-links--level--2">
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a href="#" class="mobile-links__item-link"
+                              >Thread Cutting</a
+                            >
+                          </div>
+                        </li>
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a href="#" class="mobile-links__item-link"
+                              >Chip Blowers</a
+                            >
+                          </div>
+                        </li>
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a href="#" class="mobile-links__item-link"
+                              >Sharpening Machines</a
+                            >
+                          </div>
+                        </li>
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a href="#" class="mobile-links__item-link"
+                              >Pipe Cutters</a
+                            >
+                          </div>
+                        </li>
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a href="#" class="mobile-links__item-link"
+                              >Slotting machines</a
+                            >
+                          </div>
+                        </li>
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a href="#" class="mobile-links__item-link"
+                              >Lathes</a
+                            >
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-links__item" data-collapse-item>
+              <div class="mobile-links__item-title">
+                <a
+                  href="shop-grid-3-columns-sidebar.html"
+                  class="mobile-links__item-link"
+                  >Shop</a
+                >
+                <button
+                  class="mobile-links__item-toggle"
+                  type="button"
+                  data-collapse-trigger
+                >
+                  <svg
+                    class="mobile-links__item-arrow"
+                    width="12px"
+                    height="7px"
+                  >
+                    <use
+                      xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="mobile-links__item-sub-links" data-collapse-content>
+                <ul class="mobile-links mobile-links--level--1">
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="shop-grid-3-columns-sidebar.html"
+                        class="mobile-links__item-link"
+                        >Shop Grid</a
+                      >
+                      <button
+                        class="mobile-links__item-toggle"
+                        type="button"
+                        data-collapse-trigger
+                      >
+                        <svg
+                          class="mobile-links__item-arrow"
+                          width="12px"
+                          height="7px"
+                        >
+                          <use
+                            xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                          ></use>
+                        </svg>
+                      </button>
+                    </div>
+                    <div
+                      class="mobile-links__item-sub-links"
+                      data-collapse-content
+                    >
+                      <ul class="mobile-links mobile-links--level--2">
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a
+                              href="shop-grid-3-columns-sidebar.html"
+                              class="mobile-links__item-link"
+                              >3 Columns Sidebar</a
+                            >
+                          </div>
+                        </li>
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a
+                              href="shop-grid-4-columns-full.html"
+                              class="mobile-links__item-link"
+                              >4 Columns Full</a
+                            >
+                          </div>
+                        </li>
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a
+                              href="shop-grid-5-columns-full.html"
+                              class="mobile-links__item-link"
+                              >5 Columns Full</a
+                            >
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="shop-list.html" class="mobile-links__item-link"
+                        >Shop List</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="shop-right-sidebar.html"
+                        class="mobile-links__item-link"
+                        >Shop Right Sidebar</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="product.html" class="mobile-links__item-link"
+                        >Product</a
+                      >
+                      <button
+                        class="mobile-links__item-toggle"
+                        type="button"
+                        data-collapse-trigger
+                      >
+                        <svg
+                          class="mobile-links__item-arrow"
+                          width="12px"
+                          height="7px"
+                        >
+                          <use
+                            xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                          ></use>
+                        </svg>
+                      </button>
+                    </div>
+                    <div
+                      class="mobile-links__item-sub-links"
+                      data-collapse-content
+                    >
+                      <ul class="mobile-links mobile-links--level--2">
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a
+                              href="product.html"
+                              class="mobile-links__item-link"
+                              >Product</a
+                            >
+                          </div>
+                        </li>
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a
+                              href="product-alt.html"
+                              class="mobile-links__item-link"
+                              >Product Alt</a
+                            >
+                          </div>
+                        </li>
+                        <li class="mobile-links__item" data-collapse-item>
+                          <div class="mobile-links__item-title">
+                            <a
+                              href="product-sidebar.html"
+                              class="mobile-links__item-link"
+                              >Product Sidebar</a
+                            >
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="cart.html" class="mobile-links__item-link"
+                        >Cart</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="cart-empty.html" class="mobile-links__item-link"
+                        >Cart Empty</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="checkout.html" class="mobile-links__item-link"
+                        >Checkout</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="order-success.html"
+                        class="mobile-links__item-link"
+                        >Order Success</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="wishlist.html" class="mobile-links__item-link"
+                        >Wishlist</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="compare.html" class="mobile-links__item-link"
+                        >Compare</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="track-order.html" class="mobile-links__item-link"
+                        >Track Order</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-links__item" data-collapse-item>
+              <div class="mobile-links__item-title">
+                <a href="account-login.html" class="mobile-links__item-link"
+                  >Account</a
+                >
+                <button
+                  class="mobile-links__item-toggle"
+                  type="button"
+                  data-collapse-trigger
+                >
+                  <svg
+                    class="mobile-links__item-arrow"
+                    width="12px"
+                    height="7px"
+                  >
+                    <use
+                      xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="mobile-links__item-sub-links" data-collapse-content>
+                <ul class="mobile-links mobile-links--level--1">
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="account-login.html"
+                        class="mobile-links__item-link"
+                        >Login</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="account-dashboard.html"
+                        class="mobile-links__item-link"
+                        >Dashboard</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="account-profile.html"
+                        class="mobile-links__item-link"
+                        >Edit Profile</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="account-orders.html"
+                        class="mobile-links__item-link"
+                        >Order History</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="account-order-details.html"
+                        class="mobile-links__item-link"
+                        >Order Details</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="account-addresses.html"
+                        class="mobile-links__item-link"
+                        >Address Book</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="account-edit-address.html"
+                        class="mobile-links__item-link"
+                        >Edit Address</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="account-password.html"
+                        class="mobile-links__item-link"
+                        >Change Password</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-links__item" data-collapse-item>
+              <div class="mobile-links__item-title">
+                <a href="blog-classic.html" class="mobile-links__item-link"
+                  >Blog</a
+                >
+                <button
+                  class="mobile-links__item-toggle"
+                  type="button"
+                  data-collapse-trigger
+                >
+                  <svg
+                    class="mobile-links__item-arrow"
+                    width="12px"
+                    height="7px"
+                  >
+                    <use
+                      xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="mobile-links__item-sub-links" data-collapse-content>
+                <ul class="mobile-links mobile-links--level--1">
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="blog-classic.html"
+                        class="mobile-links__item-link"
+                        >Blog Classic</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="blog-grid.html" class="mobile-links__item-link"
+                        >Blog Grid</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="blog-list.html" class="mobile-links__item-link"
+                        >Blog List</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="blog-left-sidebar.html"
+                        class="mobile-links__item-link"
+                        >Blog Left Sidebar</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="post.html" class="mobile-links__item-link"
+                        >Post Page</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="post-without-sidebar.html"
+                        class="mobile-links__item-link"
+                        >Post Without Sidebar</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-links__item" data-collapse-item>
+              <div class="mobile-links__item-title">
+                <a href="#" class="mobile-links__item-link">Pages</a>
+                <button
+                  class="mobile-links__item-toggle"
+                  type="button"
+                  data-collapse-trigger
+                >
+                  <svg
+                    class="mobile-links__item-arrow"
+                    width="12px"
+                    height="7px"
+                  >
+                    <use
+                      xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="mobile-links__item-sub-links" data-collapse-content>
+                <ul class="mobile-links mobile-links--level--1">
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="about-us.html" class="mobile-links__item-link"
+                        >About Us</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="contact-us.html" class="mobile-links__item-link"
+                        >Contact Us</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="contact-us-alt.html"
+                        class="mobile-links__item-link"
+                        >Contact Us Alt</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="404.html" class="mobile-links__item-link">404</a>
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a
+                        href="terms-and-conditions.html"
+                        class="mobile-links__item-link"
+                        >Terms And Conditions</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="faq.html" class="mobile-links__item-link">FAQ</a>
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="components.html" class="mobile-links__item-link"
+                        >Components</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="typography.html" class="mobile-links__item-link"
+                        >Typography</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-links__item" data-collapse-item>
+              <div class="mobile-links__item-title">
+                <a data-collapse-trigger class="mobile-links__item-link"
+                  >Currency</a
+                >
+                <button
+                  class="mobile-links__item-toggle"
+                  type="button"
+                  data-collapse-trigger
+                >
+                  <svg
+                    class="mobile-links__item-arrow"
+                    width="12px"
+                    height="7px"
+                  >
+                    <use
+                      xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="mobile-links__item-sub-links" data-collapse-content>
+                <ul class="mobile-links mobile-links--level--1">
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="#" class="mobile-links__item-link">€ Euro</a>
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="#" class="mobile-links__item-link"
+                        >£ Pound Sterling</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="#" class="mobile-links__item-link"
+                        >$ US Dollar</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="#" class="mobile-links__item-link"
+                        >₽ Russian Ruble</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="mobile-links__item" data-collapse-item>
+              <div class="mobile-links__item-title">
+                <a data-collapse-trigger class="mobile-links__item-link"
+                  >Language</a
+                >
+                <button
+                  class="mobile-links__item-toggle"
+                  type="button"
+                  data-collapse-trigger
+                >
+                  <svg
+                    class="mobile-links__item-arrow"
+                    width="12px"
+                    height="7px"
+                  >
+                    <use
+                      xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="mobile-links__item-sub-links" data-collapse-content>
+                <ul class="mobile-links mobile-links--level--1">
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="#" class="mobile-links__item-link">English</a>
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="#" class="mobile-links__item-link">French</a>
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="#" class="mobile-links__item-link">German</a>
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="#" class="mobile-links__item-link">Russian</a>
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="#" class="mobile-links__item-link">Italian</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- mobilemenu / end -->
+    <!-- photoswipe -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button
+              class="pswp__button pswp__button--close"
+              title="Close (Esc)"
+            ></button>
+            <!--<button class="pswp__button pswp__button&#45;&#45;share" title="Share"></button>-->
+            <button
+              class="pswp__button pswp__button--fs"
+              title="Toggle fullscreen"
+            ></button>
+            <button
+              class="pswp__button pswp__button--zoom"
+              title="Zoom in/out"
+            ></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
+          >
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button
+            class="pswp__button pswp__button--arrow--left"
+            title="Previous (arrow left)"
+          ></button>
+          <button
+            class="pswp__button pswp__button--arrow--right"
+            title="Next (arrow right)"
+          ></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- photoswipe / end -->
+    <!-- js -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendor/nouislider/nouislider.min.js"></script>
+    <script src="vendor/photoswipe/photoswipe.min.js"></script>
+    <script src="vendor/photoswipe/photoswipe-ui-default.min.js"></script>
+    <script src="vendor/select2/js/select2.min.js"></script>
+    <script src="js/number.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/header.js"></script>
+    <script src="vendor/svg4everybody/svg4everybody.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha512-NqYds8su6jivy1/WLoW8x1tZMRD7/1ZfhWG/jcRQLOzV1k1rIODCpMgoBnar5QXshKJGV7vi0LXLNXPoFsM5Zg==" crossorigin="anonymous"></script>
+    <script>
+      svg4everybody();
+    </script>
+
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <script>
+        var swiper = new Swiper(".nearbyswiper", {
+          slidesPerView: 4,
+          spaceBetween: 10,
+          autoplay: true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+
+      <script>
+        var swiper = new Swiper(".similarswiper", {
+          slidesPerView: 4,
+          spaceBetween: 10,
+          autoplay: true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    <script>
+      $(document).ready(function() {
+        $('select').niceSelect();
+      });
+    </script>
+
+    
+
+
+
+
+  </body>
+
+</html>

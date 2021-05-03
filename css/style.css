@@ -13754,6 +13754,15 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   }
 }
 
+@media (min-width: 1200px) {
+  .college_main_detail {
+    max-width: 1490px;
+  }
+}
+
+
+
+
 .top_filter {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -14151,4 +14160,353 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
 .teacher_body_first .swiper-slide:hover{
   box-shadow: unset;
   transform: scale(1.01)!important;
+}
+
+.college_detail_slides img{
+  width: 100%;
+  height: 30vh;
+}
+
+.college_detail_slides{
+  position: relative;
+}
+
+.college_detail_slides::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.college_detail_top{
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+}
+
+.collegeprofilewithnames{
+  display: flex;
+  align-items: center;
+}
+
+.collegeprofilewithnames img{
+  width: 90px;
+  height: 90px;
+}
+
+.breadsnameandmore .breads{
+  background-color: unset;
+}
+
+.breadsnameandmore .breadcrumb-item{
+  color: white;
+}
+
+.breadsnameandmore .active{
+  color: lightgray;
+}
+
+.detail_name h3{
+  color: white;
+  text-transform: uppercase;
+}
+
+.breadsnameandmore{
+  margin-left: 20px;
+}
+
+.detail_detail{
+  display: flex;
+  align-items: center;
+}
+
+.detail_first{
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-right: 12px;
+}
+
+.detail_first p{
+  margin: 0;
+  margin-left: 6px;
+}
+
+.toplinks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.college_top_links{
+  background-color: white;
+  padding: 10px;
+}
+
+.collegelinks a{
+  color: black;
+}
+
+.toplinks .active::before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 4px;
+  background-color: #f07b02;
+  left: 0;
+  bottom:-10px;
+  opacity: 1;
+  transition: 200ms ease-out;
+  transform-origin: left;
+
+}
+
+.collegelinks::before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 4px;
+  background-color: #f07b02;
+  left: 0;
+  bottom:-10px;
+  opacity: 0;
+  transition: 200ms ease-out;
+  transform-origin: left;
+}
+
+.collegelinks{
+  position: relative;
+}
+
+.collegelinks:hover::before{
+  opacity: 1;
+}
+
+.college_top_links ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.college_top_links ul li a{
+  letter-spacing: 2px;
+}
+
+.college_top_links .nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  color: black;
+}
+
+.college_top_links .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: white;
+  background-color: #f07b02;
+  border-color: #dee2e6 #dee2e6 #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  border-radius: 4px;
+}
+
+.college_main_detail .info{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 14px;
+}
+
+.college_top_links ul{
+  margin-bottom: 25px;
+}
+
+.info_para p{
+  font-size: 14px;
+  color: gray;
+}
+
+.info_para img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.course_here img{
+  width: 100%;
+}
+
+.course_here_name h4{
+  font-size: 14px;
+}
+
+.course_here_name img{
+  width: 15px;
+  margin-right: 5px;
+}
+
+.course_here_name i{
+  margin-right: 5px;
+}
+
+.course_here_name p{
+  margin: 0;
+}
+
+.course_here_name{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 10px;
+}
+
+.college_main_detail .courses{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 14px;
+  margin-bottom: 20px;
+}
+
+.courses_tit h3{
+  color: #f07b02;
+  margin-bottom: 20px;
+}
+
+.info_tit h3{
+  color: #f07b02;
+  margin-bottom: 20px;
+}
+
+.our_gallery img{
+  width: 100%;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 200ms ease-out;
+}
+
+.our_gallery img:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.faculty1{
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.faculty_name h4{
+  font-weight: normal;
+  color: #02437B;
+  font-size: 20px;
+}
+
+.faculty_position p{
+  margin: 0;
+  color: gray;
+}
+
+.faculty_list p{
+  margin-top: 5px;
+  color: gray;
+}
+
+.download_brochure i{
+  margin-right: 10px;
+}
+
+.download_brochure a{
+  background-color: #f07b02;
+  width: 100%;
+  color: white;
+  padding: 10px 35px;
+  border-radius: 4px;
+}
+
+.download_brochure{
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.download_brochure a:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.detail_ad1 img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.nearbyswiper .swiper-slide img{
+  height: initial;
+}
+
+.nearbyswiper .location i{
+  font-size: 15px;
+  margin-right: 15px;
+}
+
+.nearbyswiper{
+  overflow:visible!important;
+}
+
+.nearbyswiper .swiper-button-prev{
+  top: -28px;
+    left: 90%;
+}
+
+
+.nearbyswiper .swiper-button-next{
+  top: -28px;
+    left: 95%;
+}
+
+.nearbyswiper .maincollegeimage{
+  height: 160px!important;
+  object-fit: cover;
+}
+
+.similarswiper .swiper-slide img{
+  height: initial;
+}
+
+.similarswiper .location i{
+  font-size: 15px;
+  margin-right: 15px;
+}
+
+.similarswiper{
+  overflow:visible!important;
+}
+
+.similarswiper .swiper-button-prev{
+  top: -28px;
+    left: 90%;
+}
+
+
+.similarswiper .swiper-button-next{
+  top: -28px;
+    left: 95%;
+}
+
+.similarswiper .maincollegeimage{
+  height: 160px!important;
+  object-fit: cover;
+}
+
+.nearby_college_title{
+  margin-bottom: 20px;
+}
+
+.nearby_college_title h3{
+  color: #02437B;
+  font-size: 20px;
+}
+
+.nearby_collegs{
+  margin-bottom: 20px;
+}
+
+.college_main_detail .col-lg-9{
+  position: sticky;
+  top: 0;
+  height: 100%;
 }
