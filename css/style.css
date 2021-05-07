@@ -14510,3 +14510,172 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   top: 0;
   height: 100%;
 }
+
+.blog1{
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: 200ms ease-out;
+}
+
+.blog1:hover{
+  transform: scale(1.03);
+}
+
+.blogimage img{
+  width: 100%;
+}
+
+.blog_single_detail{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 14px;
+  width: 100%;
+}
+
+
+.blog_tit h3{
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.blog_para p{
+  font-size: 14px;
+  color: gray;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.blog_date img{
+  width: 16px;
+}
+
+.blog_date{
+  display: flex;
+  align-items: center;
+}
+
+.blog_date p{
+  margin: 0;
+  font-size: 14px;
+  color: gray;
+  margin-left: 6px;
+}
+
+.blogs{
+  margin: 2rem auto;
+}
+
+.blog_top_tit{
+  margin-bottom: 30px;
+}
+
+.blog_top_tit h3{
+  font-weight: 500;
+  position: relative;
+  width: fit-content;
+}
+
+.blog_top_tit h3::before{
+  position: absolute;
+  content: '';
+  width: 50%;
+  height: 3px;
+  background: #F07900;
+  bottom: 0;
+  left: 2px;
+}
+
+.blog_detail_sth{
+  display: flex;
+  align-items: center;
+}
+
+.blog_user{
+  display: flex;
+  align-items: center;
+  margin-left: 14px;
+}
+
+.blog_user p{
+  margin: 0;
+  margin-left: 6px;
+  color: gray;
+}
+
+.blog_detail_sth{
+  margin-top: 8px;
+}
+
+.blog_detail_para p{
+  text-align: justify;
+}
+
+.blog_detail_para{
+  margin-top: 15px;
+}
+
+.blog_detail_image img{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.blog_detail_tit h3{
+  font-size: 18px;
+}
+
+.relate1titwithimg{
+  display: flex;
+  align-items: center;
+}
+
+.relate1titwithimg img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.relate1titwithimg h5{
+  font-size: 15px;
+  margin-left: 8px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.relate1date{
+  margin: 6px auto;
+}
+
+.relate1para p{
+  font-size: 12px;
+  color: gray;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.relate_1:not(:last-child){
+  border-bottom: 1px solid lightgray;
+}
+
+.relate_1{
+  margin-top: 20px;
+}
+
+.sideblog{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  height: 100%;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.relate_1 h5:hover{
+text-decoration: underline;
+}
