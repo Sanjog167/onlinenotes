@@ -14679,3 +14679,31 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
 .relate_1 h5:hover{
 text-decoration: underline;
 }
+
+.blog_detail_para img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.sidead1 img{
+  width: 100%;
+}
+
+.sidead1{
+  margin: 20px auto;
+}
+
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #1B4A69;
+  color: white;
+  cursor: default;
+  z-index: 2;
+  border-radius: 50%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
