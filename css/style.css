@@ -13760,9 +13760,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   }
 }
 
-
-
-
 .top_filter {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -13948,7 +13945,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   width: 100%;
 }
 
-.maincollegeimage{
+.maincollegeimage {
   height: 160px;
   object-fit: cover;
 }
@@ -14045,42 +14042,42 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   font-size: 13px;
 }
 
-.college_description p{
+.college_description p {
   margin: 0;
 }
 
-.url{
+.url {
   display: flex;
   align-items: center;
   font-size: 13px;
   border-bottom: 1px solid lightgray;
 }
 
-.url p{
+.url p {
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-.url img{
+.url img {
   width: 15px;
   margin-right: 8px;
 }
 
-.affliated img{
+.affliated img {
   width: 15px;
   margin-right: 8px;
 }
 
-.college_courses p{
+.college_courses p {
   font-weight: 600;
   font-size: 13px;
 }
 
-.college_courses{
+.college_courses {
   margin-top: 8px;
 }
 
-.colleges_courses_list p{
+.colleges_courses_list p {
   font-weight: normal;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -14089,17 +14086,17 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   padding: 5px 10px;
 }
 
-.colleges_courses_list{
+.colleges_courses_list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.college_buttons{
+.college_buttons {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.buttonleft{
+.buttonleft {
   display: flex;
   align-items: center;
   background-color: #f07b02;
@@ -14110,7 +14107,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.buttonright{
+.buttonright {
   display: flex;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -14120,58 +14117,57 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   color: #f07b02;
 }
 
-
-.college_buttons img{
+.college_buttons img {
   width: 15px;
   margin-right: 10px;
 }
 
-.buttonleft p{
+.buttonleft p {
   margin: 0;
   font-size: 12px;
 }
 
-.buttonright p{
+.buttonright p {
   margin: 0;
   font-size: 12px;
 }
 
-.college_one{
+.college_one {
   cursor: pointer;
   transition: 200ms ease-out;
 }
 
-.college_one:hover{
+.college_one:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.contributor_year{
+.contributor_year {
   text-align: start;
 }
 
-.teacher_body_first .swiper-slide{
+.teacher_body_first .swiper-slide {
   border: none;
 }
 
-.teacher_body_first .swiper-slide img{
+.teacher_body_first .swiper-slide img {
   height: initial;
 }
 
-.teacher_body_first .swiper-slide:hover{
+.teacher_body_first .swiper-slide:hover {
   box-shadow: unset;
-  transform: scale(1.01)!important;
+  transform: scale(1.01) !important;
 }
 
-.college_detail_slides img{
+.college_detail_slides img {
   width: 100%;
   height: 30vh;
 }
 
-.college_detail_slides{
+.college_detail_slides {
   position: relative;
 }
 
-.college_detail_slides::before{
+.college_detail_slides::before {
   position: absolute;
   content: "";
   width: 100%;
@@ -14180,129 +14176,128 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.college_detail_top{
+.college_detail_top {
   position: absolute;
   bottom: 2%;
   left: 2%;
 }
 
-.collegeprofilewithnames{
+.collegeprofilewithnames {
   display: flex;
   align-items: center;
 }
 
-.collegeprofilewithnames img{
+.collegeprofilewithnames img {
   width: 90px;
   height: 90px;
 }
 
-.breadsnameandmore .breads{
+.breadsnameandmore .breads {
   background-color: unset;
 }
 
-.breadsnameandmore .breadcrumb-item{
+.breadsnameandmore .breadcrumb-item {
   color: white;
 }
 
-.breadsnameandmore .active{
+.breadsnameandmore .active {
   color: lightgray;
 }
 
-.detail_name h3{
+.detail_name h3 {
   color: white;
   text-transform: uppercase;
 }
 
-.breadsnameandmore{
+.breadsnameandmore {
   margin-left: 20px;
 }
 
-.detail_detail{
+.detail_detail {
   display: flex;
   align-items: center;
 }
 
-.detail_first{
+.detail_first {
   display: flex;
   align-items: center;
   color: white;
   margin-right: 12px;
 }
 
-.detail_first p{
+.detail_first p {
   margin: 0;
   margin-left: 6px;
 }
 
-.toplinks{
+.toplinks {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.college_top_links{
+.college_top_links {
   background-color: white;
   padding: 10px;
 }
 
-.collegelinks a{
+.collegelinks a {
   color: black;
 }
 
-.toplinks .active::before{
+.toplinks .active::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 4px;
   background-color: #f07b02;
   left: 0;
-  bottom:-10px;
+  bottom: -10px;
   opacity: 1;
   transition: 200ms ease-out;
   transform-origin: left;
-
 }
 
-.collegelinks::before{
+.collegelinks::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 4px;
   background-color: #f07b02;
   left: 0;
-  bottom:-10px;
+  bottom: -10px;
   opacity: 0;
   transition: 200ms ease-out;
   transform-origin: left;
 }
 
-.collegelinks{
+.collegelinks {
   position: relative;
 }
 
-.collegelinks:hover::before{
+.collegelinks:hover::before {
   opacity: 1;
 }
 
-.college_top_links ul{
+.college_top_links ul {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
-.college_top_links ul li a{
+.college_top_links ul li a {
   letter-spacing: 2px;
 }
 
 .college_top_links .nav-tabs .nav-link {
   border: 1px solid transparent;
-  border-top-left-radius: .25rem;
-  border-top-right-radius: .25rem;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
   color: black;
 }
 
-.college_top_links .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+.college_top_links .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
   color: white;
   background-color: #f07b02;
   border-color: #dee2e6 #dee2e6 #fff;
@@ -14312,105 +14307,106 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   border-radius: 4px;
 }
 
-.college_main_detail .info{
+.college_main_detail .info {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 14px;
 }
 
-.college_top_links ul{
+.college_top_links ul {
   margin-bottom: 25px;
 }
 
-.info_para p{
+.info_para p {
   font-size: 14px;
   color: gray;
 }
 
-.info_para img{
+.info_para img {
   width: 100%;
   margin-bottom: 20px;
 }
 
-.course_here img{
+.course_here img {
   width: 100%;
 }
 
-.course_here_name h4{
+.course_here_name h4 {
   font-size: 14px;
 }
 
-.course_here_name img{
+.course_here_name img {
   width: 15px;
   margin-right: 5px;
 }
 
-.course_here_name i{
+.course_here_name i {
   margin-right: 5px;
 }
 
-.course_here_name p{
+.course_here_name p {
   margin: 0;
 }
 
-.course_here_name{
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+.course_here_name {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   padding: 10px;
 }
 
-.college_main_detail .courses{
+.college_main_detail .courses {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 14px;
   margin-bottom: 20px;
 }
 
-.courses_tit h3{
+.courses_tit h3 {
   color: #f07b02;
   margin-bottom: 20px;
 }
 
-.info_tit h3{
+.info_tit h3 {
   color: #f07b02;
   margin-bottom: 20px;
 }
 
-.our_gallery img{
+.our_gallery img {
   width: 100%;
   margin-bottom: 20px;
   cursor: pointer;
   transition: 200ms ease-out;
 }
 
-.our_gallery img:hover{
+.our_gallery img:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.faculty1{
+.faculty1 {
   border: 1px solid lightgray;
   padding: 10px;
   margin-bottom: 20px;
 }
 
-.faculty_name h4{
+.faculty_name h4 {
   font-weight: normal;
-  color: #02437B;
+  color: #02437b;
   font-size: 20px;
 }
 
-.faculty_position p{
+.faculty_position p {
   margin: 0;
   color: gray;
 }
 
-.faculty_list p{
+.faculty_list p {
   margin-top: 5px;
   color: gray;
 }
 
-.download_brochure i{
+.download_brochure i {
   margin-right: 10px;
 }
 
-.download_brochure a{
+.download_brochure a {
   background-color: #f07b02;
   width: 100%;
   color: white;
@@ -14418,128 +14414,125 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   border-radius: 4px;
 }
 
-.download_brochure{
+.download_brochure {
   text-align: center;
   width: 100%;
   margin-top: 10px;
   margin-bottom: 20px;
 }
 
-.download_brochure a:hover{
+.download_brochure a:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.detail_ad1 img{
+.detail_ad1 img {
   width: 100%;
   margin-bottom: 20px;
 }
 
-.nearbyswiper .swiper-slide img{
+.nearbyswiper .swiper-slide img {
   height: initial;
 }
 
-.nearbyswiper .location i{
+.nearbyswiper .location i {
   font-size: 15px;
   margin-right: 15px;
 }
 
-.nearbyswiper{
-  overflow:visible!important;
+.nearbyswiper {
+  overflow: visible !important;
 }
 
-.nearbyswiper .swiper-button-prev{
+.nearbyswiper .swiper-button-prev {
   top: -28px;
-    left: 90%;
+  left: 90%;
 }
 
-
-.nearbyswiper .swiper-button-next{
+.nearbyswiper .swiper-button-next {
   top: -28px;
-    left: 95%;
+  left: 95%;
 }
 
-.nearbyswiper .maincollegeimage{
-  height: 160px!important;
+.nearbyswiper .maincollegeimage {
+  height: 160px !important;
   object-fit: cover;
 }
 
-.similarswiper .swiper-slide img{
+.similarswiper .swiper-slide img {
   height: initial;
 }
 
-.similarswiper .location i{
+.similarswiper .location i {
   font-size: 15px;
   margin-right: 15px;
 }
 
-.similarswiper{
-  overflow:visible!important;
+.similarswiper {
+  overflow: visible !important;
 }
 
-.similarswiper .swiper-button-prev{
+.similarswiper .swiper-button-prev {
   top: -28px;
-    left: 90%;
+  left: 90%;
 }
 
-
-.similarswiper .swiper-button-next{
+.similarswiper .swiper-button-next {
   top: -28px;
-    left: 95%;
+  left: 95%;
 }
 
-.similarswiper .maincollegeimage{
-  height: 160px!important;
+.similarswiper .maincollegeimage {
+  height: 160px !important;
   object-fit: cover;
 }
 
-.nearby_college_title{
+.nearby_college_title {
   margin-bottom: 20px;
 }
 
-.nearby_college_title h3{
-  color: #02437B;
+.nearby_college_title h3 {
+  color: #02437b;
   font-size: 20px;
 }
 
-.nearby_collegs{
+.nearby_collegs {
   margin-bottom: 20px;
 }
 
-.college_main_detail .col-lg-9{
+.college_main_detail .col-lg-9 {
   position: sticky;
   top: 0;
   height: 100%;
 }
 
-.blog1{
+.blog1 {
   margin-bottom: 30px;
   cursor: pointer;
   transition: 200ms ease-out;
 }
 
-.blog1:hover{
+.blog1:hover {
   transform: scale(1.03);
 }
 
-.blogimage img{
+.blogimage img {
   width: 100%;
 }
 
-.blog_single_detail{
+.blog_single_detail {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 14px;
   width: 100%;
 }
 
-
-.blog_tit h3{
+.blog_tit h3 {
   font-size: 16px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.blog_para p{
+.blog_para p {
   font-size: 14px;
   color: gray;
   overflow: hidden;
@@ -14547,97 +14540,97 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   white-space: nowrap;
 }
 
-.blog_date img{
+.blog_date img {
   width: 16px;
 }
 
-.blog_date{
+.blog_date {
   display: flex;
   align-items: center;
 }
 
-.blog_date p{
+.blog_date p {
   margin: 0;
   font-size: 14px;
   color: gray;
   margin-left: 6px;
 }
 
-.blogs{
+.blogs {
   margin: 2rem auto;
 }
 
-.blog_top_tit{
+.blog_top_tit {
   margin-bottom: 30px;
 }
 
-.blog_top_tit h3{
+.blog_top_tit h3 {
   font-weight: 500;
   position: relative;
   width: fit-content;
 }
 
-.blog_top_tit h3::before{
+.blog_top_tit h3::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 50%;
   height: 3px;
-  background: #F07900;
+  background: #f07900;
   bottom: 0;
   left: 2px;
 }
 
-.blog_detail_sth{
+.blog_detail_sth {
   display: flex;
   align-items: center;
 }
 
-.blog_user{
+.blog_user {
   display: flex;
   align-items: center;
   margin-left: 14px;
 }
 
-.blog_user p{
+.blog_user p {
   margin: 0;
   margin-left: 6px;
   color: gray;
 }
 
-.blog_detail_sth{
+.blog_detail_sth {
   margin-top: 8px;
 }
 
-.blog_detail_para p{
+.blog_detail_para p {
   text-align: justify;
 }
 
-.blog_detail_para{
+.blog_detail_para {
   margin-top: 15px;
 }
 
-.blog_detail_image img{
+.blog_detail_image img {
   width: 100%;
   margin-top: 20px;
 }
 
-.blog_detail_tit h3{
+.blog_detail_tit h3 {
   font-size: 18px;
 }
 
-.relate1titwithimg{
+.relate1titwithimg {
   display: flex;
   align-items: center;
 }
 
-.relate1titwithimg img{
+.relate1titwithimg img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.relate1titwithimg h5{
+.relate1titwithimg h5 {
   font-size: 15px;
   margin-left: 8px;
   font-weight: 500;
@@ -14646,11 +14639,11 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   overflow: hidden;
 }
 
-.relate1date{
+.relate1date {
   margin: 6px auto;
 }
 
-.relate1para p{
+.relate1para p {
   font-size: 12px;
   color: gray;
   text-overflow: ellipsis;
@@ -14658,16 +14651,17 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   overflow: hidden;
 }
 
-.relate_1:not(:last-child){
+.relate_1:not(:last-child) {
   border-bottom: 1px solid lightgray;
 }
 
-.relate_1{
+.relate_1 {
   margin-top: 20px;
 }
 
-.sideblog{
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+.sideblog {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   padding: 20px;
   position: sticky;
   top: 0;
@@ -14676,34 +14670,45 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   cursor: pointer;
 }
 
-.relate_1 h5:hover{
-text-decoration: underline;
+.relate_1 h5:hover {
+  text-decoration: underline;
 }
 
-.blog_detail_para img{
+.blog_detail_para img {
   width: 100%;
   margin-bottom: 10px;
 }
 
-.sidead1 img{
+.sidead1 img {
   width: 100%;
 }
 
-.sidead1{
+.sidead1 {
   margin: 20px auto;
 }
 
-.pagination{
+.pagination {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .pagination .page-item.active .page-link {
-  background-color: #1B4A69;
+  background-color: #1b4a69;
   color: white;
   cursor: default;
   z-index: 2;
   border-radius: 50%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.blog_last_ad img {
+  width: 100%;
+}
+
+.blog_ad img {
+  width: 100%;
+  height: 16vh;
+  object-fit: cover;
+  margin-top: 20px;
 }
