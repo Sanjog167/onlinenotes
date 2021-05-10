@@ -14712,3 +14712,76 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   object-fit: cover;
   margin-top: 20px;
 }
+
+.contact_top {
+  /* background-image: linear-gradient(to right, #a3bded, #6991c7); */
+  background: #132959;
+  height: 22vh;
+  position: relative;
+}
+
+.contact_top_mid {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact_top_abs {
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  background-color: #fff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  text-align: center;
+  padding: 26px 55px 22px;
+  border-radius: 5px;
+  transition: 200ms ease-out;
+  cursor: pointer;
+  z-index: 999999;
+}
+
+.contact_top_abs:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contact_top_abs h3 {
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.contact_top_abs p {
+  color: gray;
+  font-size: 14px;
+}
+
+.contact_top_mid h4 {
+  color: white;
+  letter-spacing: 2px;
+}
+
+.contact .notes_login img {
+  width: 100%;
+}
+
+.contact .form-group{
+  margin-bottom: 14px;
+}
+
+.contact textarea{
+  margin-top: 30px;
+  font-size: 13px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.contact button{
+  text-transform: uppercase;
+}
+
+.contact iframe{
+  width: 100%;
+  margin-top: 40px;
+}
