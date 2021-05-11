@@ -14840,11 +14840,17 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   .top_search {
     display: none;
   }
+
+  .mainbanner {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
 }
 
 .hidden_banner_search .banner_search_content {
   position: initial;
-  margin-top: 10px;
 }
 
 .mobile-header__panel {
