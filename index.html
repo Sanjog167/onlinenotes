@@ -1303,7 +1303,7 @@
 
 
         <div class="courses_starts container">
-          <div class=" test-container">
+          <div class=" test-container" style="overflow: hidden;">
             <div class="schoolcourse">
               <h3>See What Others Say About Us</h3>
             
@@ -1381,8 +1381,7 @@
            
             </div>
 
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+           
           </div>
         </div>
 
@@ -1776,7 +1775,7 @@
             spaceBetween: 40,
           },
           "@1.50": {
-            slidesPerView: 4,
+            slidesPerView: 5,
             spaceBetween: 50,
           },
         },
@@ -1787,10 +1786,7 @@
       var swiper = new Swiper('.test-container', {
           slidesPerView: 2,
           spaceBetween: 30,
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
+       
         autoplay:true,
         breakpoints: {
           "@0.00": {
