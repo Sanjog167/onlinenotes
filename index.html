@@ -65,9 +65,7 @@
             <div class="container">
               <div class="mobile-header__body">
                 <button class="mobile-header__menu-button">
-                  <svg width="18px" height="14px">
-                    <use xlink:href="images/sprite.svg#menu-18x14"></use>
-                  </svg>
+                  <i class="fa fa-bars"></i>
                 </button>
                 <a class="mobile-header__logo" href="index.html">
                   <img src="images/cropped-sandip-logo.png" />
@@ -1062,7 +1060,7 @@
         <div class="mainbanner container">
           <img src="images/pexels-photo-257897.jpeg" />
 
-          <div class="banner_search">
+          <div class="banner_search top_search">
             <div class="banner_search_content">
               <h3>Start Learning Now!</h3>
               <p>
@@ -1074,6 +1072,21 @@
                 <input type="text" placeholder="What do you want to learn?" />
                 <i class="fa fa-search"></i>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="banner_search hidden_banner_search">
+          <div class="banner_search_content">
+            <h3>Start Learning Now!</h3>
+            <p>
+              Study any topic, anytime. Choose from thousands of expert-led
+              courses now.
+            </p>
+
+            <div class="banner_input">
+              <input type="text" placeholder="What do you want to learn?" />
+              <i class="fa fa-search"></i>
             </div>
           </div>
         </div>
@@ -1286,6 +1299,91 @@
 
         <div class="ad container">
           <img src="images/ad1.jpg" />
+        </div>
+
+
+        <div class="courses_starts container">
+          <div class=" test-container">
+            <div class="schoolcourse">
+              <h3>See What Others Say About Us</h3>
+            
+            </div>
+
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="testimonialcontainer">
+                      <div class="testimonialbody">
+                          <p class="testimonial_sentence">
+                              Together with Us, we identified courses tailored to the needs of the world. I love the teaching concept.
+                          </p>
+                          <h3 class="testimonial_name">
+                              Sanjog Piya
+                          </h3>
+                          <img src="images/left-quotes-sign.svg">
+                         
+                      </div>
+                      <div class="testimonialimage">
+                          <img src="images/testimonial.jpg">
+                      </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonialcontainer">
+                    <div class="testimonialbody">
+                        <p class="testimonial_sentence">
+                            Together with Us, we identified courses tailored to the needs of the world. I love the teaching concept.
+                        </p>
+                        <h3 class="testimonial_name">
+                            Sanjog Piya
+                        </h3>
+                        <img src="images/left-quotes-sign.svg">
+                       
+                    </div>
+                    <div class="testimonialimage">
+                        <img src="images/testimonial.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="testimonialcontainer">
+                    <div class="testimonialbody">
+                        <p class="testimonial_sentence">
+                            Together with Us, we identified courses tailored to the needs of the world. I love the teaching concept.
+                        </p>
+                        <h3 class="testimonial_name">
+                            Sanjog Piya
+                        </h3>
+                        <img src="images/left-quotes-sign.svg">
+                       
+                    </div>
+                    <div class="testimonialimage">
+                        <img src="images/testimonial.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="testimonialcontainer">
+                    <div class="testimonialbody">
+                        <p class="testimonial_sentence">
+                            Together with Us, we identified courses tailored to the needs of the world. I love the teaching concept.
+                        </p>
+                        <h3 class="testimonial_name">
+                            Sanjog Piya
+                        </h3>
+                        <img src="images/left-quotes-sign.svg">
+                       
+                    </div>
+                    <div class="testimonialimage">
+                        <img src="images/testimonial.jpg">
+                    </div>
+                </div>
+            </div>
+           
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
         </div>
 
         
@@ -1664,11 +1762,29 @@
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+        breakpoints: {
+          "@0.00": {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          "@0.75": {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          "@1.00": {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          "@1.50": {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        },
       });
     </script>
 
     <script>
-      var swiper = new Swiper('.testimonial-container', {
+      var swiper = new Swiper('.test-container', {
           slidesPerView: 2,
           spaceBetween: 30,
         navigation: {
@@ -1676,6 +1792,24 @@
           prevEl: '.swiper-button-prev',
         },
         autoplay:true,
+        breakpoints: {
+          "@0.00": {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          "@0.75": {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          "@1.00": {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          "@1.50": {
+            slidesPerView: 2,
+            spaceBetween: 50,
+          },
+        }
       });
     </script>
 
