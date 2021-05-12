@@ -1058,14 +1058,16 @@
 
      
 
-        <div class="course_detail_starts">
+        <div class="course_detail_starts collegehidemargin">
           <div class="container course_main_detail">
 
             <div class="row">
               <div class="col-lg-3 left_filter"> 
                 <div class="filterby">
-                  <h3>Filter Courses</h3>
+                  <h3>Filter Colleges</h3>
+                  <i class="fa fa-chevron-down"></i>
                 </div>
+                <div class="filterby_list">
                 <div class="filterby_first">
                   <div class="filterby_firstone">
                  
@@ -1107,6 +1109,7 @@
                    
                   </div>
                 </div>
+              </div>
               </div>
               <div class="col-lg-9">
                 <div class="college_list">
@@ -2318,6 +2321,12 @@
     <script>
       $(document).ready(function() {
         $('select').niceSelect();
+      });
+    </script>
+
+    <script>
+      $(".filterby").click(function(){
+        $(".filterby_list").toggleClass('open',500);
       });
     </script>
 
