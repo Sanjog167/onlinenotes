@@ -13302,7 +13302,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  margin: 2rem;
+  margin: 2rem auto;
 }
 
 .three_course img {
@@ -14902,7 +14902,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
-    margin: 2rem;
+    margin: 2rem auto;
   }
 }
 
@@ -15147,3 +15147,123 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
     justify-content: center;
 }
 }
+
+
+
+@media(max-width:992px){
+  .breads {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #e7eff6;
+    margin: 20px auto;
+}
+}
+
+.course_detail_feature img{
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+@media(max-width:768px){
+  .course_detail_full p{
+    font-size: 13px;
+  }
+  .course_detail_feature img{
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: initial;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  .breadcrumb {
+    background: transparent;
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    width: 100%;
+    overflow-x: scroll;
+    flex-wrap: initial;
+  }
+  
+  .breadcrumb-item {
+    position: relative;
+    padding-left: 0;
+    padding-right: 10px !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.course_detail_main_title h3{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.course_detail_full .blog_last_ad{
+  margin: 20px auto;
+}
+
+.coursechoose_starts{
+  margin-top: 10px;
+}
+
+@media(max-width:600px){
+  .college_top_links ul {
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: initial;
+    justify-content: inherit;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.nav-tabs .nav-item {
+  margin-bottom: -1px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+}
+
+.testsecs{
+  position: relative;
+}
+
+.testsecs .swiper-button-prev{
+  position: absolute;
+}
+
+@media(max-width:768px){
+  .our_contributor_slide img {
+    width: 100%;
+    height: initial;
+    object-fit: cover;
+}
+
+.rowmission {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.about_us_mission_vision .mission {
+  position: relative;
+  background: #fed8b1;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+}
+
+.about_us_mission_vision p {
+  margin: auto;
+  width: 100%;
+}
+
+
+}
+

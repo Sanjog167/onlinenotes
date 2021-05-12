@@ -1293,7 +1293,7 @@
         </div>
 
 
-        <div class="courses_starts container">
+        <div class="courses_starts container testsecs">
           <div class=" test-container" style="overflow: hidden;">
             <div class="schoolcourse">
               <h3>See What Others Say About Us</h3>
@@ -1371,6 +1371,9 @@
             </div>
            
             </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
 
            
           </div>
@@ -1744,6 +1747,35 @@
     </script>
 
     <script>
+      var swiper = new Swiper('.test-container', {
+          slidesPerView: 2,
+          spaceBetween: 30,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        breakpoints: {
+          "@0.00": {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          "@0.75": {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          "@1.00": {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          "@1.50": {
+            slidesPerView: 2,
+            spaceBetween: 50,
+          },
+        }
+      });
+    </script>
+
+    <script>
       var swiper = new Swiper(".swiper-container", {
         slidesPerView: 5,
         spaceBetween: 30,
@@ -1773,32 +1805,7 @@
       });
     </script>
 
-    <script>
-      var swiper = new Swiper('.test-container', {
-          slidesPerView: 2,
-          spaceBetween: 30,
-       
-        autoplay:true,
-        breakpoints: {
-          "@0.00": {
-            slidesPerView: 1,
-            spaceBetween: 10,
-          },
-          "@0.75": {
-            slidesPerView: 1,
-            spaceBetween: 20,
-          },
-          "@1.00": {
-            slidesPerView: 2,
-            spaceBetween: 40,
-          },
-          "@1.50": {
-            slidesPerView: 2,
-            spaceBetween: 50,
-          },
-        }
-      });
-    </script>
+
 
 
   </body>
